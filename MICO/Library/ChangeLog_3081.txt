@@ -1,0 +1,42 @@
+版本号：30810002.043
+日期：2016-02-25
+1、修正错误：不应做dhcp_release，因为如果路由器断线重练导致dhcp timeout，会执行dhcp_stop，释放掉dhcp->pcb,下次执行dhcp_release会导致udp_pcbs为NULL。
+2、udp send之前check pcb是否为NULL，如果为NULL，就直接退出，比秒对udp_pcbs的影响。
+3、增加对staion down时lwip的设置，netif down。
+4、cyassl的interger放在RAM中，而不放在sdram，增加运算的速度。
+
+版本号：30810002.042
+日期：2016-02-16
+1. 新增API：void insert_heap(uint8_t *pv, int len)
+用于向heap增加一块RAM空间，pv是增加的地址，len是这段RAM的长度。
+以3081为例，可以增加一段SDRAM空间来作为heap的一部分。
+#include "section_config.h"
+#define SDRAM_HEAP_SIZE (200*1024)
+
+SDRAM_DATA_SECTION
+static uint8_t sdram_heap[SDRAM_HEAP_SIZE];
+
+static void ins_heap(void)
+{
+	insert_heap(sdram_heap, SDRAM_HEAP_SIZE);
+}
+
+2.修正错误：联网之后启动easylink，无法成功的问题。
+3.修正连接WPA_WPA2_MIXED的AP会失败的问题。
+
+版本号：30810002.039
+日期：2016-01-13
+1. Fix没有dhcp_up的回调的问题
+
+
+版本号：30810002.036
+日期：2015-11-05
+1. TCP Server RESET seq no
+2. support zconfig.
+3. DHCP
+
+版本号：30810002.035
+日期：2015-10-28
+1. 调整了库中一些object的运行位置，把部分SSL需要用到的需要大量CPU运算的obj放在了RAM，而把一些不需要大量CPU计算的obj从RAM放到了SDRAM。
+    SDRAM-->RAM: aes.o, arc4.o, des3.o, md5.o, sha.o, sha256.o
+    RAM-->SDRAM: mxchipWNET.o, wifimgr.o, wifi_util.o

@@ -1,0 +1,1749 @@
+###############################################################################
+#
+# IAR ELF Linker V7.30.1.7746/W32 for ARM                 03/May/2016  10:28:04
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Exe\fw_loader.axf
+#    Map file     =  
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\List\fw_loader.map
+#    Command line =  
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\BootloaderEntrance.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\CheckSumUtils.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\flash_api.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\fw_loader_main.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\Getline.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\gpio_api.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\hal_gdma.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\hal_gpio.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\hal_soc_ps_monitor.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\hal_spi_flash_ram.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\hal_timer.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\hal_uart.o
+#        E:\qe\MIKO-SDK-3081\mico.git\component\soc\realtek\8195a\misc\bsp\lib\common\IAR\lib_platform.a
+#        E:\qe\MIKO-SDK-3081\mico.git\component\soc\realtek\8195a\misc\bsp\lib\common\IAR\lib_rtlstd.a
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\menu.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\mico_platform_common.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\pinmap.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\pinmap_common.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\platform.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\platform_flash.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\platform_gpio.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\platform_init.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\platform_mcu_powersave.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\platform_rtc.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\platform_uart.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\Retarget.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\RingBufferUtils.o
+#        E:\qe\MIKO-SDK-3081\mico.git\component\soc\realtek\8195a\misc\bsp\lib\va0\rom.a
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\rtl8195a_gdma.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\rtl8195a_gpio.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\rtl8195a_timer.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\rtl8195a_uart.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\rtl_consol.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\serial_api.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\stdlib_patch.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\StringUtils.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\timer_api.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\Update_for_OTA.o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\ymodem.o
+#        --redirect _Printf=_PrintfTiny --redirect _Scanf=_ScanfSmallNoMb -o
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Exe\fw_loader.axf
+#        --keep bootloader
+#        --image_input=E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\..\..\..\component\soc\realtek\8195a\misc\bsp\image\ram_1.r.bin,bootloader,LOADER,4
+#        --map
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\List\fw_loader.map
+#        --log veneers --log_file
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\List\fw_loader.log
+#        --config
+#        E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\..\..\..\Board\EMW3081\bootloaderLinkerForIAR.icf
+#        --entry Reset_Handler --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Lt009]: Inconsistent wchar_t size
+          E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj\
+                    BootloaderEntrance.o and 58 other objects have wchar_t size
+                    16 bits
+          rom.o(rom.a) and 1 other objects have wchar_t size 32 bits
+
+  define block .heap with fixed order{ section .heap* };
+  ^
+"E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\..\..\..\Board\EMW3081\bootloaderLinkerForIAR.icf",141  Warning[Lp005]: 
+          placement includes a mix of sections with content (example
+          "rw data section .ram_dedecated_vector_table in rom.o(rom.a)") and
+          sections without content (example
+          "zi section .mon.ram.bss in rtl_consol.o")
+
+  define block .heap with fixed order{ section .heap* };
+  ^
+"E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\..\..\..\Board\EMW3081\bootloaderLinkerForIAR.icf",141  Warning[Lp006]: 
+          placement includes a mix of writable sections (example
+          "rw data section .ram_dedecated_vector_table in rom.o(rom.a)") and
+          non-writable sections (example
+          "ro data section LOADER in ram_1.r.bin")
+
+                                                                 
+  ^
+"E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\..\..\..\Board\EMW3081\bootloaderLinkerForIAR.icf",151  Warning[Lp005]: 
+          placement includes a mix of sections with content (example
+          "rw data section .fwloader.start_ram.data in fw_loader_main.o") and
+          sections without content (example
+          "zi section .bss in fw_loader_main.o")
+
+                                                                 
+  ^
+"E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\..\..\..\Board\EMW3081\bootloaderLinkerForIAR.icf",151  Warning[Lp006]: 
+          placement includes a mix of writable sections (example
+          "rw data section .fwloader.start_ram.data in fw_loader_main.o") and
+          non-writable sections (example
+          "ro data section .fwloader.validate.rodata in fw_loader_main.o")
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at start of [0x00000000-0x000fffff] { ro, section .rom };
+"A2":  place at start of [0x10000000-0x10005fff] {
+          rw, block .vector_table, block .user_vector_table,
+          block .user_data_table, block .rom.bss, block IMAGE1, block .heap };
+"A3":  place at start of [0x10006000-0x1000dfff] { rw, block FWLOADER };
+"A4":  place at end of [0x1000e000-0x1006ffff] {
+          rw, block .updata_for_ota.data };
+"A5":  place at start of [0x1000e000-0x1006ffff] {
+          rw, block IMAGE2, block .ram.bss, block .bf_data };
+
+  Section                 Kind        Address     Size  Object
+  -------                 ----        -------     ----  ------
+"A1":                                          0x43828
+  .rom                    ro code  0x00000000  0x43828  rom.o [7]
+                                 - 0x00043828  0x43828
+
+"A2":                                           0x4298
+  .vector_table                    0x10000000    0x100  <Block>
+    .ram_dedecated_vector_table
+                          const    0x10000000    0x100  rom.o [7]
+  .user_vector_table               0x10000100    0x100  <Block>
+    .ram_user_define_irq_table
+                          const    0x10000100    0x100  rom.o [7]
+  .user_data_table                 0x10000200    0x100  <Block>
+    .ram_user_define_data_table
+                          const    0x10000200    0x100  rom.o [7]
+  .rom.bss                         0x10000300    0x8c8  <Block>
+    .hal.ram.bss          const    0x10000300     0x58  rom.o [7]
+    .timer2_7_vector_table.data
+                          const    0x10000358     0x18  rom.o [7]
+    .infra.ram.bss        const    0x10000370     0x14  rom.o [7]
+    .mon.ram.bss          zero     0x10000384     0x28  rtl_consol.o [2]
+    .mon.ram.bss          zero     0x100003ac      0x4  rtl_consol.o [2]
+    .mon.ram.bss          zero     0x100003b0     0x28  rtl_consol.o [2]
+    .mon.ram.bss          zero     0x100003d8     0x80  rtl_consol.o [2]
+    .mon.ram.bss          zero     0x10000458    0x27c  rtl_consol.o [2]
+    .wlan_ram_map         const    0x100006d4      0x8  rom_wlan_ram_map.o [7]
+    .wlan_ram_map         const    0x100006e0     0x80  rom.o [7]
+    .libc.ram.bss         const    0x10000760    0x468  rom.o [7]
+  IMAGE1                           0x10000bc8   0x36cc  <Block>
+    LOADER                const    0x10000bc8   0x36cc  ram_1.r.bin [1]
+  .heap                            0x10004294      0x4  <Block>
+    .heap.stdlib          zero     0x10004294      0x1  ram_libgloss_retarget.o [6]
+                                 - 0x10004298   0x4298
+
+"A3":                                           0x70d0
+  FWLOADER                         0x10006000   0x70d0  <Block>
+    .fwloader.start.table1
+                                   0x10006000      0x4  <Block>
+      .fwloader.start_ram.data
+                          const    0x10006000      0x4  fw_loader_main.o [2]
+    .fwloader.start.table2
+                                   0x10006004     0x14  <Block>
+      .fwloader.validate.rodata
+                          const    0x10006004     0x14  fw_loader_main.o [2]
+    .fwloader_ram.text             0x10006018   0x4d62  <Block>
+      .text               ro code  0x10006018     0xc0  BootloaderEntrance.o [2]
+      .text               ro code  0x100060d8    0x410  mico_platform_common.o [2]
+      Veneer              ro code  0x100064e8      0x8  - Linker created -
+      Veneer              ro code  0x100064f0      0x8  - Linker created -
+      .text               ro code  0x100064f8    0x280  platform_init.o [2]
+      .text               ro code  0x10006778    0x2f0  platform.o [2]
+      .text               ro code  0x10006a68    0x296  Update_for_OTA.o [2]
+      .text               ro code  0x10006cfe     0xaa  Getline.o [2]
+      .text               ro code  0x10006da8     0x24  printf.o [4]
+      .text               ro code  0x10006dcc    0xaac  menu.o [2]
+      Veneer              ro code  0x10007878      0x8  - Linker created -
+      Veneer              ro code  0x10007880      0x8  - Linker created -
+      .text               ro code  0x10007888    0x13c  platform_gpio.o [2]
+      .text               ro code  0x100079c4      0x8  platform_mcu_powersave.o [2]
+      Veneer              ro code  0x100079cc      0x8  - Linker created -
+      Veneer              ro code  0x100079d4      0x8  - Linker created -
+      Veneer              ro code  0x100079dc      0x8  - Linker created -
+      .text               ro code  0x100079e4    0x5c0  platform_uart.o [2]
+      Veneer              ro code  0x10007fa4      0x8  - Linker created -
+      .text               ro code  0x10007fac    0x3dc  platform_flash.o [2]
+      Veneer              ro code  0x10008388      0x8  - Linker created -
+      Veneer              ro code  0x10008390      0x8  - Linker created -
+      Veneer              ro code  0x10008398      0x8  - Linker created -
+      Veneer              ro code  0x100083a0      0x8  - Linker created -
+      Veneer              ro code  0x100083a8      0x8  - Linker created -
+      Veneer              ro code  0x100083b0      0x8  - Linker created -
+      Veneer              ro code  0x100083b8      0x8  - Linker created -
+      .text               ro code  0x100083c0     0x98  ram_libc.o [6]
+      Veneer              ro code  0x10008458      0x8  - Linker created -
+      .text               ro code  0x10008460    0x208  fw_loader_main.o [2]
+      .text               ro code  0x10008668     0xc4  RingBufferUtils.o [2]
+      .text               ro code  0x1000872c     0x60  CheckSumUtils.o [2]
+      .text               ro code  0x1000878c     0x18  Retarget.o [2]
+      .text               ro code  0x100087a4    0x150  xprintftiny.o [4]
+      .text               ro code  0x100088f4      0xc  toupper.o [4]
+      .text               ro code  0x10008900    0x484  ymodem.o [2]
+      .text               ro code  0x10008d84     0xe8  StringUtils.o [2]
+      .text               ro code  0x10008e6c      0x6  ABImemclr4.o [8]
+      .text               ro code  0x10008e72     0x22  zero_init3.o [8]
+      .text               ro code  0x10008e94     0xb8  gpio_api.o [2]
+      Veneer              ro code  0x10008f4c      0x8  - Linker created -
+      Veneer              ro code  0x10008f54      0x8  - Linker created -
+      .text               ro code  0x10008f5c     0x20  hal_gpio.o [2]
+      .text               ro code  0x10008f7c     0xfc  pinmap_common.o [2]
+      Veneer              ro code  0x10009078      0x8  - Linker created -
+      Veneer              ro code  0x10009080      0x8  - Linker created -
+      Veneer              ro code  0x10009088      0x8  - Linker created -
+      .text               ro code  0x10009090    0x584  hal_uart.o [2]
+      Veneer              ro code  0x10009614      0x8  - Linker created -
+      .text               ro code  0x1000961c    0x19c  hal_gdma.o [2]
+      Veneer              ro code  0x100097b8      0x8  - Linker created -
+      Veneer              ro code  0x100097c0      0x8  - Linker created -
+      Veneer              ro code  0x100097c8      0x8  - Linker created -
+      Veneer              ro code  0x100097d0      0x8  - Linker created -
+      Veneer              ro code  0x100097d8      0x8  - Linker created -
+      Veneer              ro code  0x100097e0      0x8  - Linker created -
+      .text               ro code  0x100097e8    0xcac  rtl8195a_uart.o [2]
+      .text               ro code  0x1000a494     0x76  ABImemcpy_unaligned.o [8]
+      Veneer              ro code  0x1000a50c      0x8  - Linker created -
+      .text               ro code  0x1000a514    0x104  ram_libgloss_retarget.o [6]
+      .text               ro code  0x1000a618     0x36  strlen.o [8]
+      .text               ro code  0x1000a650      0x6  ABImemclr.o [8]
+      .text               ro code  0x1000a658     0x66  ABImemset.o [8]
+      .text               ro code  0x1000a6c0     0x32  ABImemset48.o [8]
+      .text               ro code  0x1000a6f2      0x2  pinmap.o [2]
+      .text               ro code  0x1000a6f4    0x290  hal_soc_ps_monitor.o [2]
+      Veneer              ro code  0x1000a984      0x8  - Linker created -
+      .text               ro code  0x1000a98c    0x3b0  rtl8195a_gdma.o [2]
+      .text               ro code  0x1000ad3c     0x28  data_init.o [8]
+      .text               ro code  0x1000ad64     0x16  xprout.o [4]
+    .fwloader_ram.data             0x1000ad7c    0x624  <Block>
+      .data               const    0x1000ad7c    0x3fc  BootloaderEntrance.o [2]
+      .data               const    0x1000b178     0x14  menu.o [2]
+      .rodata             const    0x1000b18c     0x1c  hal_spi_flash_ram.o [2]
+      .rodata             const    0x1000b1a8    0x1f8  platform.o [2]
+      .rodata             const    0x1000b3a0      0x0  zero_init3.o [8]
+    .fwloader_ram.bss              0x1000b3a0    0x874  <Block>
+      .bss                zero     0x1000b3a0     0x10  fw_loader_main.o [2]
+      .bss                zero     0x1000b3b0    0x290  hal_soc_ps_monitor.o [2]
+      .bss                zero     0x1000b640    0x500  menu.o [2]
+      .bss                zero     0x1000bb40     0x6c  platform.o [2]
+      .bss                zero     0x1000bbac     0x18  platform.o [2]
+      .bss                zero     0x1000bbc4      0x8  platform.o [2]
+      .bss                zero     0x1000bbcc      0x4  platform_init.o [2]
+      .bss                zero     0x1000bbd0      0xc  platform_uart.o [2]
+      .bss                zero     0x1000bbdc     0x28  platform_uart.o [2]
+      .bss                zero     0x1000bc04      0x4  Retarget.o [2]
+      .bss                zero     0x1000bc08      0x4  ram_libc.o [6]
+      .bss                zero     0x1000bc0c      0x4  ram_libgloss_retarget.o [6]
+      .bss                zero     0x1000bc10      0x2  hal_gdma.o [2]
+    .spi_flash.data                0x1000bc14    0x5f0  <Block>
+      .hal.flash.data     zero     0x1000bc14     0x90  hal_spi_flash_ram.o [2]
+      .hal.ram.data       const    0x1000bca8    0x430  rom.o [7]
+      .hal.gpio.data      zero     0x1000c0d8    0x12c  hal_gpio.o [2]
+    .spi_flash.text                0x1000c204    0xecc  <Block>
+      Veneer              ro code  0x1000c204      0x8  - Linker created -
+      Veneer              ro code  0x1000c20c      0x8  - Linker created -
+      .hal.flash.text     ro code  0x1000c214    0xe38  hal_spi_flash_ram.o [2]
+      Veneer              ro code  0x1000d04c      0x8  - Linker created -
+      Veneer              ro code  0x1000d054      0x8  - Linker created -
+      .hal.gpio.text      ro code  0x1000d05c     0x74  hal_gpio.o [2]
+                                 - 0x1000d0d0   0x70d0
+
+"A5":                                             0x38
+  IMAGE2                           0x1000e000     0x38  <Block>
+    .image2.start.table1           0x1000e000      0x0  <Block>
+    .ram.data                      0x1000e000     0x38  <Block>
+      .iar.init_table     const    0x1000e000     0x38  - Linker created -
+                                 - 0x1000e038     0x38
+
+"A4":                                           0x6000
+  .updata_for_ota.data             0x1006a000   0x6000  <Block>
+    .bss                  zero     0x1006a000   0x6000  Update_for_OTA.o [2]
+                                 - 0x10070000   0x6000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    6 destination ranges, total size 0x6d7f:
+          0x10000384   0x350
+          0x10004294     0x1
+          0x1000b3a0   0x872
+          0x1000bc14    0x90
+          0x1000c0d8   0x12c
+          0x1006a000  0x6000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  rw code  ro data  rw data
+    ------                    -------  -------  -------  -------
+E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\..\..\..\component\soc\realtek\8195a\misc\bsp\image: [1]
+    ram_1.r.bin                                  14 028
+    ------------------------------------------------------------
+    Total:                                       14 028
+
+E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj: [2]
+    BootloaderEntrance.o          192                      1 020
+    CheckSumUtils.o                96
+    Getline.o                     170
+    Retarget.o                     24                          4
+    RingBufferUtils.o             196
+    StringUtils.o                 232
+    Update_for_OTA.o              662                     24 576
+    fw_loader_main.o              520                20       20
+    gpio_api.o                    184
+    hal_gdma.o                    412                          2
+    hal_gpio.o                    148                        300
+    hal_soc_ps_monitor.o          656                        656
+    hal_spi_flash_ram.o         3 640                28      144
+    hal_uart.o                  1 412
+    menu.o                      2 732                      1 300
+    mico_platform_common.o      1 040
+    pinmap.o                        2
+    pinmap_common.o               252
+    platform.o                    752               504      140
+    platform_flash.o              988
+    platform_gpio.o               316
+    platform_init.o               640                          4
+    platform_mcu_powersave.o        8
+    platform_uart.o             1 472                         52
+    rtl8195a_gdma.o               944
+    rtl8195a_uart.o             3 244
+    rtl_consol.o                                             848
+    ymodem.o                    1 156
+    ------------------------------------------------------------
+    Total:                     22 090               552   29 066
+
+command line: [3]
+    ------------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [4]
+    printf.o                       36
+    toupper.o                      12
+    xprintftiny.o                 336
+    xprout.o                       22
+    ------------------------------------------------------------
+    Total:                        406
+
+lib_platform.a: [5]
+    ------------------------------------------------------------
+    Total:
+
+lib_rtlstd.a: [6]
+    ram_libc.o                    152                          4
+    ram_libgloss_retarget.o       260                          5
+    ------------------------------------------------------------
+    Total:                        412                          9
+
+rom.a: [7]
+    rom.o                              276 520             3 228
+    rom_wlan_ram_map.o                                         8
+    ------------------------------------------------------------
+    Total:                             276 520             3 236
+
+rt7M_tl.a: [8]
+    ABImemclr.o                     6
+    ABImemclr4.o                    6
+    ABImemcpy_unaligned.o         118
+    ABImemset.o                   102
+    ABImemset48.o                  50
+    data_init.o                    40
+    strlen.o                       54
+    zero_init3.o                   34
+    ------------------------------------------------------------
+    Total:                        410
+
+    Gaps                            8                          8
+    Linker created                272                56
+----------------------------------------------------------------
+    Grand Total:               23 598  276 520   14 636   32 319
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.fwloader.start.table1$$Base
+                        0x10006000           --   Gb  - Linker created -
+.fwloader.start.table1$$Limit
+                        0x10006004           --   Gb  - Linker created -
+.fwloader.start.table2$$Base
+                        0x10006004           --   Gb  - Linker created -
+.fwloader.start.table2$$Limit
+                        0x10006018           --   Gb  - Linker created -
+.fwloader_ram.bss$$Base
+                        0x1000b3a0           --   Gb  - Linker created -
+.fwloader_ram.bss$$Limit
+                        0x1000bc14           --   Gb  - Linker created -
+.fwloader_ram.data$$Base
+                        0x1000ad7c           --   Gb  - Linker created -
+.fwloader_ram.data$$Limit
+                        0x1000b3a0           --   Gb  - Linker created -
+.fwloader_ram.text$$Base
+                        0x10006018           --   Gb  - Linker created -
+.fwloader_ram.text$$Limit
+                        0x1000ad7a           --   Gb  - Linker created -
+.heap$$Base             0x10004294           --   Gb  - Linker created -
+.heap$$Limit            0x10004298           --   Gb  - Linker created -
+.image2.start.table1$$Base
+                        0x1000e000           --   Gb  - Linker created -
+.image2.start.table1$$Limit
+                        0x1000e000           --   Gb  - Linker created -
+.ram.data$$Base         0x1000e000           --   Gb  - Linker created -
+.ram.data$$Limit        0x1000e038           --   Gb  - Linker created -
+.rom.bss$$Base          0x10000300           --   Gb  - Linker created -
+.rom.bss$$Limit         0x10000bc8           --   Gb  - Linker created -
+.spi_flash.data$$Base   0x1000bc14           --   Gb  - Linker created -
+.spi_flash.data$$Limit  0x1000c204           --   Gb  - Linker created -
+.spi_flash.text$$Base   0x1000c204           --   Gb  - Linker created -
+.spi_flash.text$$Limit  0x1000d0d0           --   Gb  - Linker created -
+.updata_for_ota.data$$Base
+                        0x1006a000           --   Gb  - Linker created -
+.updata_for_ota.data$$Limit
+                        0x10070000           --   Gb  - Linker created -
+.user_data_table$$Base  0x10000200           --   Gb  - Linker created -
+.user_data_table$$Limit
+                        0x10000300           --   Gb  - Linker created -
+.user_vector_table$$Base
+                        0x10000100           --   Gb  - Linker created -
+.user_vector_table$$Limit
+                        0x10000200           --   Gb  - Linker created -
+.vector_table$$Base     0x10000000           --   Gb  - Linker created -
+.vector_table$$Limit    0x10000100           --   Gb  - Linker created -
+AES_UnWRAP              0x00012701   0x15e  Code  Gb  rom.o [7]
+AES_WRAP                0x000125c9   0x136  Code  Gb  rom.o [7]
+ArgvArray               0x100003b0    0x28  Data  Gb  rtl_consol.o [2]
+ArrayInitialize         0x0000e8b1    0x16  Code  Gb  rom.o [7]
+BAUDRATE                0x00030ca8    0x74  Data  Gb  rom.o [7]
+Bi                      0x0003dee0   0x3c0  Data  Lc  rom.o [7]
+BusFault_Handler        0x00000125          Code  Gb  rom.o [7]
+CRC16_Final             0x10008771    0x1c  Code  Gb  CheckSumUtils.o [2]
+CRC16_Init              0x1000874f     0x6  Code  Gb  CheckSumUtils.o [2]
+CRC16_Update            0x10008755    0x1c  Code  Gb  CheckSumUtils.o [2]
+CRYPTO_chacha_20        0x0001b41d   0x472  Code  Gb  rom.o [7]
+CRYPTO_poly1305_finish  0x0001bd8d   0x230  Code  Gb  rom.o [7]
+CRYPTO_poly1305_init    0x0001bc25    0xe4  Code  Gb  rom.o [7]
+CRYPTO_poly1305_update  0x0001bd09    0x82  Code  Gb  rom.o [7]
+Cal_CRC16               0x10008ba1    0x26  Code  Gb  ymodem.o [2]
+CfgSysDebugErr          0x10000308     0x4  Data  Gb  rom.o [7]
+CfgSysDebugInfo         0x10000304     0x4  Data  Gb  rom.o [7]
+CfgSysDebugWarn         0x10000300     0x4  Data  Gb  rom.o [7]
+CmdDumpByte             0x0000e6f5    0x5a  Code  Gb  rom.o [7]
+CmdDumpHelfWord         0x0000e505    0xea  Code  Gb  rom.o [7]
+CmdDumpWord             0x0000e5f1   0x104  Code  Gb  rom.o [7]
+CmdRomHelp              0x0000e419    0x76  Code  Gb  rom.o [7]
+CmdSpiFlashTool         0x0000e751    0x58  Code  Gb  rom.o [7]
+CmdWriteByte            0x0000e7ad    0x3e  Code  Gb  rom.o [7]
+CmdWriteWord            0x0000e491    0x72  Code  Gb  rom.o [7]
+ConfigDebugErr          0x10000314     0x4  Data  Gb  rom.o [7]
+ConfigDebugInfo         0x10000310     0x4  Data  Gb  rom.o [7]
+ConfigDebugWarn         0x1000030c     0x4  Data  Gb  rom.o [7]
+CpkClkTbl               0x00030c68    0x18  Data  Gb  rom.o [7]
+DEF_BAUDRATE_TABLE      0x10009300    0xb0  Data  Gb  hal_uart.o [2]
+DEF_DIV_B_CUT           0x10009414    0x58  Data  Gb  hal_uart.o [2]
+DEF_DIV_C_CUT           0x1000951c    0x58  Data  Gb  hal_uart.o [2]
+DEF_OVSR_ADJ_BITS_B_CUT_10B
+                        0x1000946c    0x2c  Data  Gb  hal_uart.o [2]
+DEF_OVSR_ADJ_BITS_B_CUT_8B
+                        0x100094c4    0x2c  Data  Gb  hal_uart.o [2]
+DEF_OVSR_ADJ_BITS_B_CUT_9B
+                        0x10009498    0x2c  Data  Gb  hal_uart.o [2]
+DEF_OVSR_ADJ_BITS_C_CUT_10B
+                        0x10009574    0x2c  Data  Gb  hal_uart.o [2]
+DEF_OVSR_ADJ_BITS_C_CUT_8B
+                        0x100095cc    0x2c  Data  Gb  hal_uart.o [2]
+DEF_OVSR_ADJ_BITS_C_CUT_9B
+                        0x100095a0    0x2c  Data  Gb  hal_uart.o [2]
+DEF_OVSR_B_CUT          0x100093e8    0x2c  Data  Gb  hal_uart.o [2]
+DEF_OVSR_C_CUT          0x100094f0    0x2c  Data  Gb  hal_uart.o [2]
+DIV                     0x00030d90    0x74  Data  Gb  rom.o [7]
+DM_CfoTrack             0x10000738    0x24  Data  Gb  rom.o [7]
+DiagPrintf              0x0000f39d    0x1a  Code  Gb  rom.o [7]
+DiagSPrintf             0x0000f3b9    0x18  Code  Gb  rom.o [7]
+DiagSnPrintf            0x0000f3d1    0x1a  Code  Gb  rom.o [7]
+DumpForOneBytes         0x0000e259   0x1be  Code  Gb  rom.o [7]
+ERROR_STR               0x1000b178    0x14  Data  Gb  menu.o [2]
+En32KCalibration {Abs}  0x00000000           --   Gb  command line/config [3]
+F.constprop.0           0x00013e05    0x96  Code  Lc  rom.o [7]
+FSb                     0x000317b0   0x400  Data  Lc  rom.o [7]
+FT0                     0x00032bb0   0x400  Data  Lc  rom.o [7]
+FT1                     0x000333b0   0x400  Data  Lc  rom.o [7]
+FT2                     0x000337b0   0x400  Data  Lc  rom.o [7]
+FT3                     0x00032fb0   0x400  Data  Lc  rom.o [7]
+FWLOADER$$Base          0x10006000           --   Gb  - Linker created -
+FWLOADER$$Limit         0x1000d0d0           --   Gb  - Linker created -
+FalseAlmCnt             0x100006e0    0x3c  Data  Gb  rom.o [7]
+FileName                0x1000ba40   0x100  Data  Gb  menu.o [2]
+GDMA_Chnl_Option        0x10009784    0x34  Data  Gb  hal_gdma.o [2]
+GPIOCtrl                0x00000cc5    0x38  Code  Lc  rom.o [7]
+GPIOCtrl.part.0         0x00000c99    0x2a  Code  Lc  rom.o [7]
+GPIOState               0x10000334    0x16  Data  Gb  rom.o [7]
+GPIO_FuncOff_8195a      0x0000d481    0x68  Code  Wk  rom.o [7]
+GPIO_FuncOn_8195a       0x0000d421    0x5e  Code  Wk  rom.o [7]
+GPIO_GetChipPinName_8195a
+                        0x0000d331    0x6c  Code  Wk  rom.o [7]
+GPIO_GetIPPinName_8195a
+                        0x0000d2e5    0x4c  Code  Wk  rom.o [7]
+GPIO_Int_Mask_8195a     0x0000d4e9    0x28  Code  Wk  rom.o [7]
+GPIO_Int_SetType_8195a  0x0000d511    0xea  Code  Wk  rom.o [7]
+GPIO_PullCtrl_8195a     0x0000d39d    0x84  Code  Wk  rom.o [7]
+GetArgc                 0x0000e8c9    0x2e  Code  Gb  rom.o [7]
+GetArgv                 0x0000e8f9    0x64  Code  Gb  rom.o [7]
+GetRomCmdNum            0x0000e7a9     0x4  Code  Gb  rom.o [7]
+HALEFUSEOneByteReadROM  0x000065f9    0xa0  Code  Gb  rom.o [7]
+HALEFUSEOneByteWriteROM
+                        0x00006699    0xac  Code  Gb  rom.o [7]
+HAL_GPIO_DeInit_8195a   0x0000dac1   0x110  Code  Wk  rom.o [7]
+HAL_GPIO_GetIPPinName_8195a
+                        0x0000e1c1     0x8  Code  Wk  rom.o [7]
+HAL_GPIO_GetPinName     0x1000d05d     0x4  Code  Gb  hal_gpio.o [2]
+HAL_GPIO_IP_DeInit      0x10008f5d    0x18  Code  Gb  hal_gpio.o [2]
+HAL_GPIO_Init           0x1000d061    0x2c  Code  Gb  hal_gpio.o [2]
+HAL_GPIO_Init_8195a     0x0000d805   0x2ba  Code  Wk  rom.o [7]
+HAL_GPIO_IntCtrl_8195a  0x0000d6cd   0x138  Code  Wk  rom.o [7]
+HAL_GPIO_IntDebounce_8195a
+                        0x0000e101    0xc0  Code  Wk  rom.o [7]
+HAL_GPIO_IrqHandler_8195a
+                        0x0000d5fd    0x46  Code  Wk  rom.o [7]
+HAL_GPIO_MaskIrq_8195a  0x0000dfc1    0xa0  Code  Wk  rom.o [7]
+HAL_GPIO_MbedIrqHandler_8195a
+                        0x0000d645    0x5c  Code  Wk  rom.o [7]
+HAL_GPIO_PullCtrl_8195a
+                        0x0000e1c9    0x8e  Code  Wk  rom.o [7]
+HAL_GPIO_ReadPin        0x10007889     0x4  Code  Lc  platform_gpio.o [2]
+HAL_GPIO_ReadPin_8195a  0x0000dbd1    0xc0  Code  Wk  rom.o [7]
+HAL_GPIO_RegIrq_8195a   0x0000ddad    0x46  Code  Wk  rom.o [7]
+HAL_GPIO_UnMaskIrq_8195a
+                        0x0000e061    0xa0  Code  Wk  rom.o [7]
+HAL_GPIO_UnRegIrq_8195a
+                        0x0000ddf5    0x1e  Code  Wk  rom.o [7]
+HAL_GPIO_UserIrqHandler_8195a
+                        0x0000d6a1    0x2c  Code  Wk  rom.o [7]
+HAL_GPIO_UserRegIrq_8195a
+                        0x0000de15    0xe4  Code  Wk  rom.o [7]
+HAL_GPIO_UserUnRegIrq_8195a
+                        0x0000def9    0xc8  Code  Wk  rom.o [7]
+HAL_GPIO_WritePin       0x1000788d     0x4  Code  Lc  platform_gpio.o [2]
+HAL_GPIO_WritePin_8195a
+                        0x0000dc91   0x11a  Code  Wk  rom.o [7]
+HalBusFaultHandler      0x00000c39    0x2e  Code  Gb  rom.o [7]
+HalCpuClkConfig         0x00000341    0x14  Code  Wk  rom.o [7]
+HalCryptoIntrHandle     0x00003935    0x50  Code  Gb  rom.o [7]
+HalDEBUGPinCtrlRtl8195A
+                        0x00002a31   0x108  Code  Gb  rom.o [7]
+HalDelayUs              0x00000899    0x48  Code  Wk  rom.o [7]
+HalEEPROMPinCtrlRtl8195A
+                        0x000029d9    0x58  Code  Gb  rom.o [7]
+HalEFUSEPowerSwitch8195AROM
+                        0x00006561    0x98  Code  Gb  rom.o [7]
+HalEGTIMPinCtrlRtl8195A
+                        0x000025d9    0x9e  Code  Gb  rom.o [7]
+HalETE0PinCtrlRtl8195A  0x000021b9   0x106  Code  Gb  rom.o [7]
+HalETE1PinCtrlRtl8195A  0x000022c1   0x106  Code  Gb  rom.o [7]
+HalETE2PinCtrlRtl8195A  0x000023c9   0x106  Code  Gb  rom.o [7]
+HalETE3PinCtrlRtl8195A  0x000024d1   0x106  Code  Gb  rom.o [7]
+HalGdamChInitRtl8195a   0x00005e91    0x2c  Code  Wk  rom.o [7]
+HalGdma0Ch0IntrHandle   0x000039d5    0x50  Code  Gb  rom.o [7]
+HalGdma0Ch1IntrHandle   0x00003a25    0x50  Code  Gb  rom.o [7]
+HalGdma0Ch2IntrHandle   0x00003a75    0x50  Code  Gb  rom.o [7]
+HalGdma0Ch3IntrHandle   0x00003ac5    0x50  Code  Gb  rom.o [7]
+HalGdma0Ch4IntrHandle   0x00003b15    0x50  Code  Gb  rom.o [7]
+HalGdma0Ch5IntrHandle   0x00003b65    0x50  Code  Gb  rom.o [7]
+HalGdma1Ch0IntrHandle   0x00003bb5    0x50  Code  Gb  rom.o [7]
+HalGdma1Ch1IntrHandle   0x00003c05    0x50  Code  Gb  rom.o [7]
+HalGdma1Ch2IntrHandle   0x00003c55    0x50  Code  Gb  rom.o [7]
+HalGdma1Ch3IntrHandle   0x00003ca5    0x50  Code  Gb  rom.o [7]
+HalGdma1Ch4IntrHandle   0x00003cf5    0x50  Code  Gb  rom.o [7]
+HalGdma1Ch5IntrHandle   0x00003d45    0x50  Code  Gb  rom.o [7]
+HalGdmaChBlockSetingRtl8195a
+                        0x1000a98d   0x270  Code  Gb  rtl8195a_gdma.o [2]
+HalGdmaChCleanAutoDstRtl8195a
+                        0x00006501    0x60  Code  Wk  rom.o [7]
+HalGdmaChCleanAutoSrcRtl8195a
+                        0x000064a1    0x60  Code  Wk  rom.o [7]
+HalGdmaChDisRtl8195a    0x00005e6d    0x24  Code  Wk  rom.o [7]
+HalGdmaChEnRtl8195a     0x00005e51    0x1a  Code  Wk  rom.o [7]
+HalGdmaChIsrCleanRtl8195a
+                        0x00006419    0x88  Code  Wk  rom.o [7]
+HalGdmaChIsrEnAndDisRtl8195a
+                        0x00005e0d    0x44  Code  Wk  rom.o [7]
+HalGdmaChSetingRtl8195a
+                        0x00005ebd   0x220  Code  Wk  rom.o [7]
+HalGdmaChnlAlloc        0x10009705    0x2a  Code  Gb  hal_gdma.o [2]
+HalGdmaChnlFree         0x1000972f    0x1e  Code  Gb  hal_gdma.o [2]
+HalGdmaChnlRegister     0x1000965b    0x56  Code  Gb  hal_gdma.o [2]
+HalGdmaChnlUnRegister   0x100096b1    0x54  Code  Gb  hal_gdma.o [2]
+HalGdmaOnOffRtl8195a    0x00005df1    0x1a  Code  Wk  rom.o [7]
+HalGdmaOpInit           0x1000961d    0x3e  Code  Gb  hal_gdma.o [2]
+HalGdmaQueryChEnRtl8195a
+                        0x1000ac33    0x18  Code  Gb  rtl8195a_gdma.o [2]
+HalGdmaQueryDArRtl8195a
+                        0x1000ac07    0x16  Code  Gb  rtl8195a_gdma.o [2]
+HalGdmaQuerySArRtl8195a
+                        0x1000ac1d    0x16  Code  Gb  rtl8195a_gdma.o [2]
+HalGdmaReg              0x1000bc10     0x2  Data  Lc  hal_gdma.o [2]
+HalGetCpuClk            0x00000355    0x46  Code  Wk  rom.o [7]
+HalGetRomInfo           0x000003b5     0xe  Code  Wk  rom.o [7]
+HalGetTimerIdRtl8195a   0x0000ef09    0x34  Code  Gb  rom.o [7]
+HalGmacIntrHandle       0x00003985    0x50  Code  Gb  rom.o [7]
+HalGpioIntrHandle       0x00003665    0x4e  Code  Gb  rom.o [7]
+HalHardFaultHandler     0x00000911   0x2f6  Code  Gb  rom.o [7]
+HalI2C0PinCtrlRtl8195A  0x00001275   0x10a  Code  Gb  rom.o [7]
+HalI2C1PinCtrlRtl8195A  0x00001381    0xd6  Code  Gb  rom.o [7]
+HalI2C2PinCtrlRtl8195A  0x00001459    0xd0  Code  Gb  rom.o [7]
+HalI2C3IntrHandle       0x00003575    0x4e  Code  Gb  rom.o [7]
+HalI2C3PinCtrlRtl8195A  0x00001529   0x10e  Code  Gb  rom.o [7]
+HalI2CClrAllIntrRtl8195a
+                        0x0000a761    0x14  Code  Wk  rom.o [7]
+HalI2CClrIntrRtl8195a   0x0000a749    0x16  Code  Wk  rom.o [7]
+HalI2CDMACtrl8195a      0x0000aa31    0x2e  Code  Wk  rom.o [7]
+HalI2CDeInit8195a       0x0000a0dd   0x112  Code  Wk  rom.o [7]
+HalI2CEnableRtl8195a    0x0000a271   0x116  Code  Wk  rom.o [7]
+HalI2CInit8195a         0x0000a775   0x2bc  Code  Wk  rom.o [7]
+HalI2CIntrCtrl8195a     0x0000a389    0x18  Code  Wk  rom.o [7]
+HalI2CMassSendRtl8195a  0x0000a6e9    0x60  Code  Wk  rom.o [7]
+HalI2COpInit            0x0000aa69   0x1fc  Code  Wk  rom.o [7]
+HalI2CRead32            0x0000a09d    0x40  Code  Wk  rom.o [7]
+HalI2CReadRegRtl8195a   0x0000a3a1    0x10  Code  Wk  rom.o [7]
+HalI2CReceiveRtl8195a   0x0000a25d    0x14  Code  Wk  rom.o [7]
+HalI2CSendRtl8195a      0x0000a1f1    0x6a  Code  Wk  rom.o [7]
+HalI2CSetCLKRtl8195a    0x0000a3c5   0x324  Code  Wk  rom.o [7]
+HalI2CWrite32           0x0000a061    0x3c  Code  Wk  rom.o [7]
+HalI2CWriteRegRtl8195a  0x0000a3b1    0x12  Code  Wk  rom.o [7]
+HalI2S0PinCtrlRtl8195A  0x00001639   0x132  Code  Gb  rom.o [7]
+HalI2S1PinCtrlRtl8195A  0x0000176d    0xd6  Code  Gb  rom.o [7]
+HalI2SClrAllIntrRtl8195a
+                        0x0000d0fd    0x20  Code  Wk  rom.o [7]
+HalI2SClrIntrRtl8195a   0x0000d0dd    0x20  Code  Wk  rom.o [7]
+HalI2SDeInitRtl8195a    0x0000cfa9    0x20  Code  Wk  rom.o [7]
+HalI2SEnableRtl8195a    0x0000d05d    0x52  Code  Wk  rom.o [7]
+HalI2SInitRtl8195a      0x0000d11d   0x1c6  Code  Wk  rom.o [7]
+HalI2SIntrCtrlRtl8195a  0x0000d0b1    0x20  Code  Wk  rom.o [7]
+HalI2SRead32            0x0000cf85    0x22  Code  Wk  rom.o [7]
+HalI2SReadRegRtl8195a   0x0000d0d1     0xa  Code  Wk  rom.o [7]
+HalI2SRxRtl8195a        0x0000d011    0x4c  Code  Wk  rom.o [7]
+HalI2STxRtl8195a        0x0000cfc9    0x48  Code  Wk  rom.o [7]
+HalI2SWrite32           0x0000cf65    0x20  Code  Wk  rom.o [7]
+HalI2s0OrPcm0IntrHandle
+                        0x000037f5    0x50  Code  Gb  rom.o [7]
+HalI2s1OrPcm1IntrHandle
+                        0x00003845    0x50  Code  Gb  rom.o [7]
+HalJTAGPinCtrlRtl8195A  0x0000280d    0x52  Code  Gb  rom.o [7]
+HalLOGUartIRPinCtrlRtl8195A
+                        0x0000291d    0x62  Code  Gb  rom.o [7]
+HalLOGUartPinCtrlRtl8195A
+                        0x000028b9    0x62  Code  Gb  rom.o [7]
+HalLogUartInit          0x00000201    0xd6  Code  Gb  rom.o [7]
+HalMIIPinCtrlRtl8195A   0x00001ab9    0x98  Code  Gb  rom.o [7]
+HalMemManageHandler     0x00000c09    0x2e  Code  Gb  rom.o [7]
+HalNFCPinCtrlRtl8195A   0x00001d59    0x50  Code  Gb  rom.o [7]
+HalNMIHandler           0x000008e1    0x2e  Code  Gb  rom.o [7]
+HalPCM0PinCtrlRtl8195A  0x00001845   0x104  Code  Gb  rom.o [7]
+HalPCM1PinCtrlRtl8195A  0x00001949    0xd4  Code  Gb  rom.o [7]
+HalPWM0PinCtrlRtl8195A  0x00001da9   0x104  Code  Gb  rom.o [7]
+HalPWM1PinCtrlRtl8195A  0x00001ead   0x106  Code  Gb  rom.o [7]
+HalPWM2PinCtrlRtl8195A  0x00001fb5    0xfc  Code  Gb  rom.o [7]
+HalPWM3PinCtrlRtl8195A  0x000020b1   0x106  Code  Gb  rom.o [7]
+HalPeripheralIntrHandle
+                        0x000033b5    0x84  Code  Gb  rom.o [7]
+HalPinCtrlRtl8195A      0x00002b39   0x324  Code  Gb  rom.o [7]
+HalResetVsr             0x000003c5   0x4d4  Code  Wk  rom.o [7]
+HalRomInfo              0x0000039d    0x16  Code  Wk  rom.o [7]
+HalRuartAdapterLoadDefRtl8195a
+                        0x00004a4d    0x90  Code  Wk  rom.o [7]
+HalRuartDeInit          0x10009287    0x44  Code  Gb  hal_uart.o [2]
+HalRuartDeInitRtl8195a  0x00004855   0x12e  Code  Wk  rom.o [7]
+HalRuartDmaInitRtl8195a
+                        0x00004681   0x1c4  Code  Wk  rom.o [7]
+HalRuartDmaRecvRtl8195a
+                        0x000051ad   0x11e  Code  Wk  rom.o [7]
+HalRuartDmaSendRtl8195a
+                        0x00004e35   0x152  Code  Wk  rom.o [7]
+HalRuartDmaSendRtl8195a_Patch
+                        0x10009d65    0xd6  Code  Gb  rtl8195a_uart.o [2]
+HalRuartEnable          0x100092df     0x8  Code  Gb  hal_uart.o [2]
+HalRuartEnableRtl8195a  0x10009d05    0x5a  Code  Gb  rtl8195a_uart.o [2]
+HalRuartEnterCritical   0x100092f9     0x4  Code  Gb  hal_uart.o [2]
+HalRuartEnterCriticalRtl8195a
+                        0x10009f99    0x32  Code  Gb  rtl8195a_uart.o [2]
+HalRuartExitCritical    0x100092fd     0x4  Code  Gb  hal_uart.o [2]
+HalRuartExitCriticalRtl8195a
+                        0x10009fcb    0x32  Code  Gb  rtl8195a_uart.o [2]
+HalRuartGenBaudRateRtl8195a
+                        0x100097f5   0x138  Code  Gb  rtl8195a_uart.o [2]
+HalRuartGetCRtl8195a    0x0000429d    0x1e  Code  Wk  rom.o [7]
+HalRuartGetChipVerRtl8195a
+                        0x100097e9     0xc  Code  Gb  rtl8195a_uart.o [2]
+HalRuartGetDebugValueRtl8195a
+                        0x000042e1   0x100  Code  Wk  rom.o [7]
+HalRuartGetIMRRtl8195a  0x000043e1    0x4a  Code  Wk  rom.o [7]
+HalRuartInit            0x1000921b    0x6c  Code  Gb  hal_uart.o [2]
+HalRuartInitRtl8195a    0x00005829   0x5c6  Code  Wk  rom.o [7]
+HalRuartInitRtl8195a_Patch
+                        0x10009aed   0x218  Code  Gb  rtl8195a_uart.o [2]
+HalRuartIntDisableRtl8195a
+                        0x00004845    0x10  Code  Wk  rom.o [7]
+HalRuartIntEnableRtl8195a
+                        0x00004985    0x10  Code  Wk  rom.o [7]
+HalRuartIntRecvRtl8195a
+                        0x0000504d   0x15e  Code  Wk  rom.o [7]
+HalRuartIntSendRtl8195a
+                        0x00004d09   0x12c  Code  Wk  rom.o [7]
+HalRuartOpInit          0x10009091    0x62  Code  Gb  hal_uart.o [2]
+HalRuartPutCRtl8195a    0x00004281    0x1c  Code  Wk  rom.o [7]
+HalRuartRTSCtrlRtl8195a
+                        0x000042bd    0x22  Code  Wk  rom.o [7]
+HalRuartRecvRtl8195a    0x00005599   0x1b8  Code  Wk  rom.o [7]
+HalRuartRegIrqRtl8195a  0x000049d1    0x7a  Code  Wk  rom.o [7]
+HalRuartResetRxFifoRtl8195a
+                        0x00005775    0xb2  Code  Wk  rom.o [7]
+HalRuartRxGdmaDeInit    0x100091f3     0xa  Code  Gb  hal_uart.o [2]
+HalRuartRxGdmaLoadDefRtl8195a
+                        0x00004bc9    0xfe  Code  Wk  rom.o [7]
+HalRuartSendRtl8195a    0x000053b1   0x1e6  Code  Wk  rom.o [7]
+HalRuartSetBaudRateRtl8195a
+                        0x1000992d   0x1c0  Code  Gb  rtl8195a_uart.o [2]
+HalRuartSetIMRRtl8195a  0x0000442d    0x38  Code  Wk  rom.o [7]
+HalRuartStopRecvRtl8195a
+                        0x000052cd    0xb8  Code  Wk  rom.o [7]
+HalRuartStopRecvRtl8195a_Patch
+                        0x10009e43    0xb8  Code  Gb  rtl8195a_uart.o [2]
+HalRuartStopSendRtl8195a
+                        0x00004f89    0xc4  Code  Wk  rom.o [7]
+HalRuartStopSendRtl8195a_Patch
+                        0x10009efb    0x9e  Code  Gb  rtl8195a_uart.o [2]
+HalRuartTxGdmaDeInit    0x100091bf     0xc  Code  Gb  hal_uart.o [2]
+HalRuartTxGdmaInit      0x10009155    0x6a  Code  Gb  hal_uart.o [2]
+HalRuartTxGdmaLoadDefRtl8195a
+                        0x00004add    0xec  Code  Wk  rom.o [7]
+HalSDIODPinCtrlRtl8195A
+                        0x00001a1d    0x50  Code  Gb  rom.o [7]
+HalSDIOHPinCtrlRtl8195A
+                        0x00001a6d    0x4c  Code  Gb  rom.o [7]
+HalSDRPinCtrlRtl8195A   0x00002725    0xe6  Code  Gb  rom.o [7]
+HalSICPinCtrlRtl8195A   0x00002981    0x58  Code  Gb  rom.o [7]
+HalSPI0MCSPinCtrlRtl8195A
+                        0x000011b5    0xc0  Code  Gb  rom.o [7]
+HalSPI0PinCtrlRtl8195A  0x00000f75    0xa0  Code  Gb  rom.o [7]
+HalSPI1PinCtrlRtl8195A  0x00001015    0xce  Code  Gb  rom.o [7]
+HalSPI2PinCtrlRtl8195A  0x000010e5    0xd0  Code  Gb  rom.o [7]
+HalSPIFlashPinCtrlRtl8195A
+                        0x00002679    0xaa  Code  Gb  rom.o [7]
+HalSdioDeviceIntrHandle
+                        0x00003d95    0x50  Code  Gb  rom.o [7]
+HalSdioHostIntrHandle   0x000037a5    0x50  Code  Gb  rom.o [7]
+HalSerialGetIsrEnRegRtl8195a
+                        0x00000329     0xc  Code  Gb  rom.o [7]
+HalSerialGetcRtl8195a   0x00000309    0x1e  Code  Gb  rom.o [7]
+HalSerialPutcRtl8195a   0x000002d9    0x30  Code  Gb  rom.o [7]
+HalSerialSetIrqEnRegRtl8195a
+                        0x00000335     0xc  Code  Gb  rom.o [7]
+HalSpi0IntrHandle       0x00003615    0x4e  Code  Gb  rom.o [7]
+HalSpiFlashIntrHandle   0x00003705    0x50  Code  Gb  rom.o [7]
+HalSsiBusyRtl8195a      0x00008c81    0x76  Code  Wk  rom.o [7]
+HalSsiDisableRtl8195a   0x00007ef9    0xb4  Code  Wk  rom.o [7]
+HalSsiEnableRtl8195a    0x00007e45    0xb4  Code  Wk  rom.o [7]
+HalSsiGetInterruptMaskRtl8195a
+                        0x000085c9    0x72  Code  Wk  rom.o [7]
+HalSsiGetInterruptStatusRtl8195a
+                        0x000090d9    0x72  Code  Wk  rom.o [7]
+HalSsiGetRawInterruptStatusRtl8195a
+                        0x000093e9    0x72  Code  Wk  rom.o [7]
+HalSsiGetRxFifoLevelRtl8195a
+                        0x00008a2d    0x76  Code  Wk  rom.o [7]
+HalSsiGetSlaveEnableRegisterRtl8195a
+                        0x0000945d    0x72  Code  Wk  rom.o [7]
+HalSsiGetStatusRtl8195a
+                        0x00008b1d    0x72  Code  Wk  rom.o [7]
+HalSsiGetTxFifoLevelRtl8195a
+                        0x00008aa5    0x76  Code  Wk  rom.o [7]
+HalSsiInitRtl8195a      0x000094d1   0x6d2  Code  Wk  rom.o [7]
+HalSsiInterruptDisableRtl8195a
+                        0x00009299   0x150  Code  Wk  rom.o [7]
+HalSsiInterruptEnableRtl8195a
+                        0x0000914d   0x14a  Code  Wk  rom.o [7]
+HalSsiLoadSettingRtl8195a
+                        0x00007fad   0x572  Code  Wk  rom.o [7]
+HalSsiPinmuxEnableRtl8195a
+                        0x00007cd5   0x170  Code  Wk  rom.o [7]
+HalSsiReadInterruptRtl8195a
+                        0x00008cf9   0x204  Code  Wk  rom.o [7]
+HalSsiReadRtl8195a      0x000089b9    0x72  Code  Wk  rom.o [7]
+HalSsiReadableRtl8195a  0x00008c09    0x76  Code  Wk  rom.o [7]
+HalSsiSetDeviceRoleRtl8195a
+                        0x00008861    0x66  Code  Wk  rom.o [7]
+HalSsiSetInterruptMaskRtl8195a
+                        0x00008521    0xa8  Code  Wk  rom.o [7]
+HalSsiSetRxFifoThresholdLevelRtl8195a
+                        0x000088c9    0x76  Code  Wk  rom.o [7]
+HalSsiSetSclkPhaseRtl8195a
+                        0x00008715    0xd2  Code  Wk  rom.o [7]
+HalSsiSetSclkPolarityRtl8195a
+                        0x0000863d    0xd6  Code  Wk  rom.o [7]
+HalSsiSetSlaveEnableRegisterRtl8195a
+                        0x00009009    0xce  Code  Wk  rom.o [7]
+HalSsiSetTxFifoThresholdLevelRtl8195a
+                        0x00008941    0x76  Code  Wk  rom.o [7]
+HalSsiWriteInterruptRtl8195a
+                        0x00008efd   0x10a  Code  Wk  rom.o [7]
+HalSsiWriteRtl8195a     0x000087e9    0x78  Code  Wk  rom.o [7]
+HalSsiWriteableRtl8195a
+                        0x00008b91    0x76  Code  Wk  rom.o [7]
+HalSysOnIntrHandle      0x00003439    0x4c  Code  Gb  rom.o [7]
+HalTRACEPinCtrlRtl8195A
+                        0x00002861    0x58  Code  Gb  rom.o [7]
+HalTimer0IntrHandle     0x000034d5    0x4e  Code  Gb  rom.o [7]
+HalTimer1IntrHandle     0x00003525    0x4e  Code  Gb  rom.o [7]
+HalTimer2To7IntrHandle  0x000035c5    0x4e  Code  Gb  rom.o [7]
+HalTimerDisRtl8195a     0x0000f069    0x20  Code  Gb  rom.o [7]
+HalTimerDumpRegRtl8195a
+                        0x0000f0d1    0x56  Code  Gb  rom.o [7]
+HalTimerEnRtl8195a      0x0000f089    0x20  Code  Gb  rom.o [7]
+HalTimerInitRtl8195a    0x0000ef3d   0x12a  Code  Gb  rom.o [7]
+HalTimerIrq2To7Handle   0x0000ee59    0xb0  Code  Gb  rom.o [7]
+HalTimerIrqClearRtl8195a
+                        0x0000f0bd    0x12  Code  Gb  rom.o [7]
+HalTimerOp              0x10000318    0x1c  Data  Gb  rom.o [7]
+HalTimerOpInit          0x0000ee0d    0x4c  Code  Wk  rom.o [7]
+HalTimerReadCountRtl8195a
+                        0x0000f0a9    0x12  Code  Gb  rom.o [7]
+HalUart0IntrHandle      0x000036b5    0x50  Code  Gb  rom.o [7]
+HalUart0PinCtrlRtl8195A
+                        0x00000cfd    0xca  Code  Gb  rom.o [7]
+HalUart1PinCtrlRtl8195A
+                        0x00000dc9    0xd2  Code  Gb  rom.o [7]
+HalUart2PinCtrlRtl8195A
+                        0x00000e9d    0xd8  Code  Gb  rom.o [7]
+HalUsageFaultHandler    0x00000c69    0x2e  Code  Gb  rom.o [7]
+HalUsbOtgIntrHandle     0x00003755    0x50  Code  Gb  rom.o [7]
+HalWLANT0PinCtrlRtl8195A
+                        0x00001c0d    0x52  Code  Gb  rom.o [7]
+HalWLANT1PinCtrlRtl8195A
+                        0x00001c61    0x52  Code  Gb  rom.o [7]
+HalWLBTCMDPinCtrlRtl8195A
+                        0x00001d05    0x52  Code  Gb  rom.o [7]
+HalWLBTCOEXPinCtrlRtl8195A
+                        0x00001cb5    0x50  Code  Gb  rom.o [7]
+HalWLLEDPinCtrlRtl8195A
+                        0x00001b51    0xbc  Code  Gb  rom.o [7]
+HalWdgIntrHandle        0x00003485    0x4e  Code  Gb  rom.o [7]
+HalWlDmaIntrHandle      0x00003895    0x50  Code  Gb  rom.o [7]
+HalWlProtocolIntrHandle
+                        0x000038e5    0x50  Code  Gb  rom.o [7]
+HardFault_Handler       0x0000010d          Code  Gb  rom.o [7]
+I2CDmaChNo              0x000312a0    0x14  Data  Gb  rom.o [7]
+I2CISRHandle            0x0000ac91   0x7a4  Code  Wk  rom.o [7]
+I2CIsTimeout            0x0000ac65    0x2a  Code  Wk  rom.o [7]
+I2CRXGDMAISRHandle      0x0000b4c1    0x8c  Code  Wk  rom.o [7]
+I2CTXGDMAISRHandle      0x0000b435    0x8c  Code  Wk  rom.o [7]
+IMAGE1$$Base            0x10000bc8           --   Gb  - Linker created -
+IMAGE1$$Limit           0x10004294           --   Gb  - Linker created -
+IMAGE2$$Base            0x1000e000           --   Gb  - Linker created -
+IMAGE2$$Limit           0x1000e038           --   Gb  - Linker created -
+Int2Str                 0x10008d85    0x36  Code  Gb  StringUtils.o [2]
+Isspace                 0x0000e7ed    0x12  Code  Gb  rom.o [7]
+K                       0x000363b8   0x280  Data  Lc  rom.o [7]
+KK                      0x00036294   0x100  Data  Lc  rom.o [7]
+KT0                     0x00031fb0   0x400  Data  Lc  rom.o [7]
+KT1                     0x000323b0   0x400  Data  Lc  rom.o [7]
+KT2                     0x000327b0   0x400  Data  Lc  rom.o [7]
+KT3                     0x00031bb0   0x400  Data  Lc  rom.o [7]
+Main_Menu               0x10006f39   0x3da  Code  Gb  menu.o [2]
+MemManage_Handler       0x00000121          Code  Gb  rom.o [7]
+MicoFlashDisableSecurity
+                        0x10006455    0x56  Code  Gb  mico_platform_common.o [2]
+MicoFlashEnableSecurity
+                        0x10006357    0x44  Code  Gb  mico_platform_common.o [2]
+MicoFlashErase          0x10006207    0x44  Code  Gb  mico_platform_common.o [2]
+MicoFlashGetInfo        0x100061b1    0x14  Code  Gb  mico_platform_common.o [2]
+MicoFlashInitialize     0x100061c5    0x42  Code  Lc  mico_platform_common.o [2]
+MicoFlashRead           0x100062b5    0x6a  Code  Gb  mico_platform_common.o [2]
+MicoFlashWrite          0x1000624b    0x6a  Code  Gb  mico_platform_common.o [2]
+MicoGpioFinalize        0x1000611b    0x14  Code  Gb  mico_platform_common.o [2]
+MicoGpioInitialize      0x100060df    0x14  Code  Gb  mico_platform_common.o [2]
+MicoGpioOutputHigh      0x100060f3    0x14  Code  Gb  mico_platform_common.o [2]
+MicoGpioOutputLow       0x10006107    0x14  Code  Gb  mico_platform_common.o [2]
+MicoMcuPowerSaveConfig  0x10006145     0xc  Code  Gb  mico_platform_common.o [2]
+MicoShouldEnterATEMode  0x100067fb    0x1a  Code  Gb  platform.o [2]
+MicoShouldEnterBootloader
+                        0x100067e1    0x1a  Code  Gb  platform.o [2]
+MicoShouldEnterMFGMode  0x100067c7    0x1a  Code  Gb  platform.o [2]
+MicoSysLed              0x100067b9     0xe  Code  Gb  platform.o [2]
+MicoSystemReboot        0x100061ad     0x4  Code  Gb  mico_platform_common.o [2]
+MicoUartFinalize        0x1000615d    0x14  Code  Gb  mico_platform_common.o [2]
+MicoUartRecv            0x1000618b    0x16  Code  Gb  mico_platform_common.o [2]
+MicoUartSend            0x10006171    0x1a  Code  Gb  mico_platform_common.o [2]
+NMI_Handler             0x00000109          Code  Gb  rom.o [7]
+NewVectorTable          0x10000000   0x100  Data  Gb  rom.o [7]
+OVSR                    0x00030d1c    0x74  Data  Gb  rom.o [7]
+OVSR_ADJ                0x00030e04    0x74  Data  Gb  rom.o [7]
+PADDING                 0x000353b0    0x40  Data  Lc  rom.o [7]
+PHY_QueryBBReg_8195A    0x00018279    0x22  Code  Gb  rom.o [7]
+PHY_SetBBReg_8195A      0x00018239    0x3e  Code  Gb  rom.o [7]
+PinMap_UART_RX          0x10007f2c    0x78  Data  Lc  platform_uart.o [2]
+PinMap_UART_TX          0x10007eb4    0x78  Data  Lc  platform_uart.o [2]
+PwrAdapter              0x1000b3b0   0x28c  Data  Gb  hal_soc_ps_monitor.o [2]
+QueryRegPwrState        0x1000a94b    0x2c  Code  Gb  hal_soc_ps_monitor.o [2]
+RAM_FW_LOADER_VALID_PATTEN
+                        0x10006004    0x14  Data  Gb  fw_loader_main.o [2]
+RCON                    0x00031788    0x28  Data  Lc  rom.o [7]
+ROMInfo                 0x10000720    0x18  Data  Gb  rom.o [7]
+ROM_IMG1_VALID_PATTEN   0x00030c80     0x5  Data  Gb  rom.o [7]
+ROM_ODM_CfoTrackingReset
+                        0x000187e9    0x26  Code  Gb  rom.o [7]
+ROM_odm_CfoTrackingFlow
+                        0x00018811   0x1fe  Code  Gb  rom.o [7]
+ROM_odm_EVMdbToPercentage
+                        0x000182bd    0x26  Code  Gb  rom.o [7]
+ROM_odm_FalseAlarmCounterStatistics
+                        0x000183cd   0x352  Code  Gb  rom.o [7]
+ROM_odm_GetDefaultCrytaltalCap
+                        0x000187d5    0x12  Code  Gb  rom.o [7]
+ROM_odm_QueryRxPwrPercentage
+                        0x0001829d    0x1e  Code  Gb  rom.o [7]
+ROM_odm_SetCrystalCap   0x00018771    0x62  Code  Gb  rom.o [7]
+ROM_odm_SetEDCCAThreshold
+                        0x00018721    0x28  Code  Gb  rom.o [7]
+ROM_odm_SetTRxMux       0x00018749    0x28  Code  Gb  rom.o [7]
+ROM_odm_SignalScaleMapping_8195A
+                        0x000182e5    0xe8  Code  Gb  rom.o [7]
+RSN_AUTH_KEY_MGMT_PSK_OVER_802_1X
+                        0x00035444     0x4  Data  Gb  rom.o [7]
+RSN_AUTH_KEY_MGMT_UNSPEC_802_1X
+                        0x00035448     0x4  Data  Gb  rom.o [7]
+RSN_CIPHER_SUITE_CCMP   0x00035430     0x4  Data  Gb  rom.o [7]
+RSN_CIPHER_SUITE_NONE   0x00035424     0x4  Data  Gb  rom.o [7]
+RSN_CIPHER_SUITE_TKIP   0x0003542c     0x4  Data  Gb  rom.o [7]
+RSN_CIPHER_SUITE_WEP104
+                        0x00035434     0x4  Data  Gb  rom.o [7]
+RSN_CIPHER_SUITE_WEP40  0x00035428     0x4  Data  Gb  rom.o [7]
+RSN_VERSION_BSD         0x0003544c     0x2  Data  Gb  rom.o [7]
+RSb                     0x00034bb0   0x400  Data  Lc  rom.o [7]
+RT0                     0x00033bb0   0x400  Data  Lc  rom.o [7]
+RT1                     0x000343b0   0x400  Data  Lc  rom.o [7]
+RT2                     0x000347b0   0x400  Data  Lc  rom.o [7]
+RT3                     0x00033fb0   0x400  Data  Lc  rom.o [7]
+RTW_WPA_OUI_TYPE        0x0003540c     0x4  Data  Gb  rom.o [7]
+Rand                    0x0000f585    0x88  Code  Gb  rom.o [7]
+ReadHWPwrState          0x1000a767   0x1e4  Code  Gb  hal_soc_ps_monitor.o [2]
+Receive_Byte            0x10008901    0x16  Code  Lc  ymodem.o [2]
+RegPowerState           0x1000a6f5    0x72  Code  Gb  hal_soc_ps_monitor.o [2]
+Region$$Table$$Base     0x1000e000           --   Gb  - Linker created -
+Region$$Table$$Limit    0x1000e038           --   Gb  - Linker created -
+Reset_Handler           0x00000101          Code  Gb  rom.o [7]
+RtkI2CDMADeInit         0x0000bdad    0xa0  Code  Wk  rom.o [7]
+RtkI2CDMAInit           0x0000b955   0x33e  Code  Wk  rom.o [7]
+RtkI2CDeInit            0x0000be4d    0x98  Code  Wk  rom.o [7]
+RtkI2CInit              0x0000bc95   0x118  Code  Wk  rom.o [7]
+RtkI2CIoCtrl            0x0000aa61     0x4  Code  Wk  rom.o [7]
+RtkI2CIrqDeInit         0x0000b611    0x62  Code  Wk  rom.o [7]
+RtkI2CIrqInit           0x0000b54d    0xc2  Code  Wk  rom.o [7]
+RtkI2CLoadDefault       0x0000ce51    0xd0  Code  Wk  rom.o [7]
+RtkI2CPinMuxDeInit      0x0000b7c9   0x18c  Code  Wk  rom.o [7]
+RtkI2CPinMuxInit        0x0000b675   0x152  Code  Wk  rom.o [7]
+RtkI2CPowerCtrl         0x0000aa65     0x4  Code  Wk  rom.o [7]
+RtkI2CReceive           0x0000c6dd   0x772  Code  Wk  rom.o [7]
+RtkI2CSend              0x0000c07d   0x65e  Code  Wk  rom.o [7]
+RtkI2CSendUserAddr      0x0000bee5   0x196  Code  Wk  rom.o [7]
+RtkSalI2COpInit         0x0000cf21    0x42  Code  Wk  rom.o [7]
+RtlConsolInit           0x0000ecc5    0x84  Code  Gb  rom.o [7]
+RtlConsolRom            0x0000edcd    0x3e  Code  Gb  rom.o [7]
+RtlConsolTaskRom        0x0000ed49    0x30  Code  Gb  rom.o [7]
+RtlExitConsol           0x0000ed79    0x54  Code  Gb  rom.o [7]
+RtlUpSemaFromISR {Abs}  0x00000000           --   Gb  command line/config [3]
+RuartIsTimeout          0x00005385    0x2a  Code  Wk  rom.o [7]
+RuartLock               0x00004cc9    0x24  Code  Wk  rom.o [7]
+RuartResetRxFifoRtl8195a
+                        0x00005751    0x24  Code  Wk  rom.o [7]
+RuartUnLock             0x00004ced    0x1c  Code  Wk  rom.o [7]
+SSI_DBG_CONFIG          0x10000350     0x4  Data  Gb  rom.o [7]
+STACK_TOP {Abs}         0x1ffffffc           --   Gb  rom.o [7]
+SYSAdapte               0x1000b63c     0x4  Data  Gb  hal_soc_ps_monitor.o [2]
+SerialDownload          0x10006e77    0x7c  Code  Gb  menu.o [2]
+SerialUpload            0x10006ef3    0x46  Code  Gb  menu.o [2]
+ShowRamBuildInfo {Abs}  0x00000000           --   Gb  command line/config [3]
+SpiFlashApp             0x00003279   0x13a  Code  Gb  rom.o [7]
+SpicCalibrationPattern  0x00030c88    0x10  Data  Gb  rom.o [7]
+SpicCalibrationRtl8195A
+                        0x1000c50b   0x212  Code  Gb  hal_spi_flash_ram.o [2]
+SpicCmpDataForCalibrationRtl8195A
+                        0x00003049    0x38  Code  Gb  rom.o [7]
+SpicConfigAutoModeRtl8195A
+                        0x1000c755    0x3a  Code  Gb  hal_spi_flash_ram.o [2]
+SpicDisableRtl8195A     0x1000ca3b     0xc  Code  Gb  hal_spi_flash_ram.o [2]
+SpicEraseFlashRtl8195A  0x000031bd    0xbc  Code  Gb  rom.o [7]
+SpicFlashInitRtl8195A   0x1000c39b    0x9c  Code  Gb  hal_spi_flash_ram.o [2]
+SpicGetFlashFlagRtl8195A
+                        0x1000c7ad    0x58  Code  Gb  hal_spi_flash_ram.o [2]
+SpicGetFlashStatusRefinedRtl8195A
+                        0x1000c915    0x34  Code  Gb  hal_spi_flash_ram.o [2]
+SpicGetFlashStatusRtl8195A
+                        0x00002eb5    0xa0  Code  Gb  rom.o [7]
+SpicInitCPUCLK          0x00030c98    0x10  Data  Gb  rom.o [7]
+SpicInitParaAllClk      0x1000bc14    0x90  Data  Gb  hal_spi_flash_ram.o [2]
+SpicInitRefinedRtl8195A
+                        0x1000c949    0x84  Code  Gb  hal_spi_flash_ram.o [2]
+SpicInitRtl8195A        0x000030e5    0xd6  Code  Gb  rom.o [7]
+SpicLoadInitParaFromClockRtl8195A
+                        0x00003081    0x64  Code  Gb  rom.o [7]
+SpicNVMCalLoad          0x1000ca47    0x8a  Code  Gb  hal_spi_flash_ram.o [2]
+SpicNVMCalStore         0x1000cae1   0x114  Code  Gb  hal_spi_flash_ram.o [2]
+SpicReadIDRtl8195A      0x1000c43d    0xce  Code  Gb  hal_spi_flash_ram.o [2]
+SpicRxCmdRefinedRtl8195A
+                        0x1000c847    0xce  Code  Gb  hal_spi_flash_ram.o [2]
+SpicRxCmdRtl8195A       0x00002e5d    0x46  Code  Gb  rom.o [7]
+SpicSectorEraseFlashRtl8195A
+                        0x1000c377     0x8  Code  Gb  hal_spi_flash_ram.o [2]
+SpicSetFlashStatusRefinedRtl8195A
+                        0x1000c9cd    0x5a  Code  Gb  hal_spi_flash_ram.o [2]
+SpicSetFlashStatusRtl8195A
+                        0x00002fc1    0x86  Code  Gb  rom.o [7]
+SpicTxCmdRtl8195A       0x00002f6d    0x54  Code  Gb  rom.o [7]
+SpicTxCmdWithDataRtl8195A
+                        0x1000c215    0x9c  Code  Gb  hal_spi_flash_ram.o [2]
+SpicTxFlashInstRtl8195A
+                        0x1000c315    0x5c  Code  Gb  hal_spi_flash_ram.o [2]
+SpicWaitBusyDoneRtl8195A
+                        0x00002ea5    0x10  Code  Gb  rom.o [7]
+SpicWaitOperationDoneRtl8195A
+                        0x1000c817    0x22  Code  Gb  hal_spi_flash_ram.o [2]
+SpicWaitWipDoneRefinedRtl8195A
+                        0x1000c78f    0x1e  Code  Gb  hal_spi_flash_ram.o [2]
+SpicWaitWipDoneRtl8195A
+                        0x00002f55    0x16  Code  Gb  rom.o [7]
+Str2Int                 0x10008dbb    0xac  Code  Gb  StringUtils.o [2]
+StrUpr                  0x0000f749    0x1e  Code  Gb  rom.o [7]
+Strtoul                 0x0000e801    0xae  Code  Gb  rom.o [7]
+TKIP_Sbox1              0x00035588   0x400  Data  Lc  rom.o [7]
+Timer2To7VectorTable    0x10000358    0x18  Data  Gb  rom.o [7]
+Uart2_TX_GDMA_Chnl_Option
+                        0x100095f8    0x1c  Data  Gb  hal_uart.o [2]
+UartGdmaOp              0x1000bbdc    0x28  Data  Lc  platform_uart.o [2]
+UartLogBuf              0x100003d8    0x80  Data  Gb  rtl_consol.o [2]
+UartLogCmdChk           0x0000eadd   0x118  Code  Gb  rom.o [7]
+UartLogCmdExecute       0x0000e95d    0x9e  Code  Gb  rom.o [7]
+UartLogCtl              0x10000384    0x28  Data  Gb  rtl_consol.o [2]
+UartLogHistoryBuf       0x10000458   0x27c  Data  Gb  rtl_consol.o [2]
+UartLogHistoryCmd       0x0000ea71    0x6c  Code  Gb  rom.o [7]
+UartLogIrqHandle        0x0000ebf5    0xce  Code  Gb  rom.o [7]
+UartLogRecallOldCmd     0x0000ea39    0x36  Code  Gb  rom.o [7]
+UartLogRomCmdTable      0x000316a0    0x60  Data  Gb  rom.o [7]
+UartLogShowBackSpace    0x0000e9fd    0x3c  Code  Gb  rom.o [7]
+UpdateCRC16             0x1000872d    0x22  Code  Gb  CheckSumUtils.o [2]
+UsageFault_Handler      0x00000129          Code  Gb  rom.o [7]
+UserIrqDataTable        0x10000200   0x100  Data  Gb  rom.o [7]
+UserIrqFunTable         0x10000100   0x100  Data  Gb  rom.o [7]
+VSprintf                0x0000f129   0x272  Code  Gb  rom.o [7]
+VectorIrqDisRtl8195A    0x0000418d    0xa0  Code  Gb  rom.o [7]
+VectorIrqEnRtl8195A     0x000040f1    0x9a  Code  Gb  rom.o [7]
+VectorIrqRegisterRtl8195A
+                        0x00004029    0x66  Code  Gb  rom.o [7]
+VectorIrqUnRegisterRtl8195A
+                        0x00004091    0x60  Code  Gb  rom.o [7]
+VectorTableInitForOSRtl8195A
+                        0x00004019    0x10  Code  Gb  rom.o [7]
+VectorTableInitRtl8195A
+                        0x00003de5   0x232  Code  Gb  rom.o [7]
+WIFI_CCKRATES           0x00035400     0x4  Data  Lc  rom.o [7]
+WIFI_OFDMRATES          0x00035404     0x8  Data  Lc  rom.o [7]
+WPA2_SUITE_1X           0x0003543c     0x4  Data  Lc  rom.o [7]
+WPA_CIPHER_SUITE_CCMP   0x0003541c     0x4  Data  Gb  rom.o [7]
+WPA_CIPHER_SUITE_NONE   0x00035410     0x4  Data  Gb  rom.o [7]
+WPA_CIPHER_SUITE_TKIP   0x00035418     0x4  Data  Gb  rom.o [7]
+WPA_CIPHER_SUITE_WEP104
+                        0x00035420     0x4  Data  Gb  rom.o [7]
+WPA_CIPHER_SUITE_WEP40  0x00035414     0x4  Data  Gb  rom.o [7]
+WPA_SUITE_1X            0x00035438     0x4  Data  Lc  rom.o [7]
+WPS_realloc             0x00017d51    0x48  Code  Gb  rom.o [7]
+Ymodem_PrepareIntialPacket
+                        0x10008ae9    0x58  Code  Gb  ymodem.o [2]
+Ymodem_PreparePacket    0x10008b41    0x58  Code  Gb  ymodem.o [2]
+Ymodem_Receive          0x10008935   0x1a6  Code  Gb  ymodem.o [2]
+Ymodem_SendPacket       0x10008bc7    0x1a  Code  Gb  ymodem.o [2]
+Ymodem_Transmit         0x10008be1   0x186  Code  Gb  ymodem.o [2]
+_AppStart {Abs}         0x00000000           --   Gb  command line/config [3]
+_GPIO_EXT_PORT_TBL      0x00031598     0x3  Data  Lc  rom.o [7]
+_GPIO_PinMap_Chip2IP_8195a
+                        0x000312b4    0xb8  Data  Lc  rom.o [7]
+_GPIO_PinMap_PullCtrl_8195a
+                        0x0003136c   0x228  Data  Lc  rom.o [7]
+_GPIO_SWPORT_DDR_TBL    0x00031594     0x3  Data  Lc  rom.o [7]
+_GPIO_SWPORT_DR_TBL     0x0003159c     0x3  Data  Lc  rom.o [7]
+_HalGdmaOp              0x00031760    0x28  Data  Gb  rom.o [7]
+_HalRuartOp             0x00031700    0x60  Data  Gb  rom.o [7]
+_PrintfTiny             0x100087bd   0x138  Code  Gb  xprintftiny.o [4]
+_Prout                  0x1000ad65    0x16  Code  Gb  xprout.o [4]
+_SsiIrqHandle           0x00009eb1   0x1ae  Code  Wk  rom.o [7]
+_SsiReadInterrupt       0x00009ba5   0x20c  Code  Wk  rom.o [7]
+_SsiWriteInterrupt      0x00009db1    0xfe  Code  Wk  rom.o [7]
+_UartIrqHandle          0x00004465   0x21c  Code  Wk  rom.o [7]
+_UartRxDmaIrqHandle     0x0000422d    0x52  Code  Wk  rom.o [7]
+_UartTxDmaIrqHandle     0x00004995    0x3c  Code  Wk  rom.o [7]
+__AES_Te4               0x00030ea0   0x400  Data  Gb  rom.o [7]
+__AES_rcon              0x00030e78    0x28  Data  Gb  rom.o [7]
+__aeabi_memclr          0x1000a651          Code  Gb  ABImemclr.o [8]
+__aeabi_memclr4         0x10008e6d          Code  Gb  ABImemclr4.o [8]
+__aeabi_memset          0x1000a659          Code  Gb  ABImemset.o [8]
+__countLeadingZerosHigh
+                        0x000315a0   0x100  Data  Lc  rom.o [7]
+__fwloader_bss_end__    0x1000b3ac     0x4  Data  Gb  fw_loader_main.o [2]
+__fwloader_bss_start__  0x1000b3a8     0x4  Data  Gb  fw_loader_main.o [2]
+__iar_Memset            0x1000a659          Code  Gb  ABImemset.o [8]
+__iar_Memset4_word      0x1000a6c1          Code  Gb  ABImemset48.o [8]
+__iar_Memset8_word      0x1000a6c1          Code  Gb  ABImemset48.o [8]
+__iar_Memset_word       0x1000a661          Code  Gb  ABImemset.o [8]
+__iar_data_init3        0x1000ad3d    0x28  Code  Gb  data_init.o [8]
+__iar_unaligned___aeabi_memcpy
+                        0x1000a495          Code  Gb  ABImemcpy_unaligned.o [8]
+__iar_unaligned___aeabi_memcpy4
+                        0x1000a4b5          Code  Gb  ABImemcpy_unaligned.o [8]
+__iar_unaligned___aeabi_memcpy8
+                        0x1000a4b5          Code  Gb  ABImemcpy_unaligned.o [8]
+__iar_zero_init3        0x10008e73    0x22  Code  Gb  zero_init3.o [8]
+__image1_validate_code__ {Abs}
+                        0x10000bdc           --   Gb  command line/config [3]
+__image4_entry_func__   0x1000b3a0     0x4  Data  Gb  fw_loader_main.o [2]
+__image4_validate_code__
+                        0x1000b3a4     0x4  Data  Gb  fw_loader_main.o [2]
+__ram_start_table_start__ {Abs}
+                        0x10000bc8           --   Gb  command line/config [3]
+__rom_bss_end__ {Abs}   0x10000bc8           --   Gb  command line/config [3]
+__rom_bss_start__ {Abs}
+                        0x10000300           --   Gb  command line/config [3]
+__rom_mallocr_init_v1_00
+                        0x0002d7d1    0x6e  Code  Gb  rom.o [7]
+__rtl_AES_set_encrypt_key
+                        0x00006901   0x310  Code  Gb  rom.o [7]
+__rtl_Balloc_v1_00      0x0002e515    0x5c  Code  Gb  rom.o [7]
+__rtl_Bfree_v1_00       0x0002e571    0x12  Code  Gb  rom.o [7]
+__rtl__strtok_r_v1_00   0x0002962d    0x64  Code  Gb  rom.o [7]
+__rtl_align_to_be32_v1_00
+                        0x00006881    0x16  Code  Gb  rom.o [7]
+__rtl_calloc_r_v1_00    0x0002e441    0x66  Code  Gb  rom.o [7]
+__rtl_cfree_r_v1_00     0x0002e4a9    0x10  Code  Gb  rom.o [7]
+__rtl_cleanup_r         0x0002ef51    0x3c  Code  Lc  rom.o [7]
+__rtl_close_v1_00       0x00029699    0x14  Code  Gb  rom.o [7]
+__rtl_cmp_v1_00         0x0002e9bd    0x42  Code  Gb  rom.o [7]
+__rtl_cos_f32_v1_00     0x0002c229   0x20c  Code  Gb  rom.o [7]
+__rtl_critical_factorization_v1_00
+                        0x000290e5    0xb8  Code  Lc  rom.o [7]
+__rtl_cryptoEngine_AES_set_decrypt_key
+                        0x00006c11    0x84  Code  Gb  rom.o [7]
+__rtl_cryptoEngine_exit_v1_00
+                        0x00007055    0x5c  Code  Gb  rom.o [7]
+__rtl_cryptoEngine_init_v1_00
+                        0x00006ea9   0x1ac  Code  Gb  rom.o [7]
+__rtl_cryptoEngine_reset_v1_00
+                        0x000070b1    0x3c  Code  Gb  rom.o [7]
+__rtl_cryptoEngine_set_security_mode_v1_00
+                        0x00006c95   0x212  Code  Gb  rom.o [7]
+__rtl_cryptoEngine_v1_00
+                        0x000070ed   0xb7a  Code  Gb  rom.o [7]
+__rtl_crypto_cipher_decrypt_v1_00
+                        0x00007cad    0x28  Code  Gb  rom.o [7]
+__rtl_crypto_cipher_encrypt_v1_00
+                        0x00007c89    0x24  Code  Gb  rom.o [7]
+__rtl_crypto_cipher_init_v1_00
+                        0x00007c69    0x1e  Code  Gb  rom.o [7]
+__rtl_d2b_v1_00         0x0002e845    0xbc  Code  Gb  rom.o [7]
+__rtl_dadd_v1_00        0x0002a825   0x6b2  Code  Gb  rom.o [7]
+__rtl_dcmpeq_v1_00      0x0002be4d    0x6e  Code  Gb  rom.o [7]
+__rtl_dcmpgt_v1_00      0x0002bf51    0xf6  Code  Gb  rom.o [7]
+__rtl_dcmple_v1_00      0x0002c049    0xee  Code  Gb  rom.o [7]
+__rtl_dcmplt_v1_00      0x0002bebd    0x92  Code  Gb  rom.o [7]
+__rtl_ddiv_v1_00        0x0002b8ad   0x59e  Code  Gb  rom.o [7]
+__rtl_diff_v1_00        0x0002ea01    0xe6  Code  Gb  rom.o [7]
+__rtl_div64_32          0x00029739    0x82  Code  Lc  rom.o [7]
+__rtl_dmul_v1_00        0x0002b555   0x358  Code  Gb  rom.o [7]
+__rtl_dsub_v1_00        0x0002aed9   0x67a  Code  Gb  rom.o [7]
+__rtl_dtoa_r_v1_00      0x0002c77d  0x1052  Code  Gb  rom.o [7]
+__rtl_dtof_v1_00        0x00029de9    0x9e  Code  Gb  rom.o [7]
+__rtl_dtoi64_v1_00      0x00029945    0x98  Code  Gb  rom.o [7]
+__rtl_dtoi_v1_00        0x000298c5    0x80  Code  Gb  rom.o [7]
+__rtl_dtoui_v1_00       0x000299dd     0x8  Code  Gb  rom.o [7]
+__rtl_errno             0x10000bc4     0x4  Data  Gb  rom.o [7]
+__rtl_fabs_v1_00        0x0002c639     0x6  Code  Gb  rom.o [7]
+__rtl_fabsf_v1_00       0x0002c641     0x6  Code  Gb  rom.o [7]
+__rtl_fadd_v1_00        0x00029f65   0x2fa  Code  Gb  rom.o [7]
+__rtl_fclose_r          0x0002eec5    0x8c  Code  Lc  rom.o [7]
+__rtl_fcmpgt_v1_00      0x0002c195    0x94  Code  Gb  rom.o [7]
+__rtl_fcmplt_v1_00      0x0002c139    0x5c  Code  Gb  rom.o [7]
+__rtl_fdiv_v1_00        0x0002a695   0x190  Code  Gb  rom.o [7]
+__rtl_fflush_r_v1_00    0x0002ef8d    0x2a  Code  Gb  rom.o [7]
+__rtl_fmul_v1_00        0x0002a559   0x13c  Code  Gb  rom.o [7]
+__rtl_fpclassifyd       0x00030c15    0x50  Code  Gb  rom.o [7]
+__rtl_free_r_v1_00      0x0002d841   0x1ee  Code  Gb  rom.o [7]
+__rtl_fstat_v1_00       0x000296ad    0x14  Code  Gb  rom.o [7]
+__rtl_fsub_v1_00        0x0002a261   0x2f8  Code  Gb  rom.o [7]
+__rtl_ftod_v1_00        0x00029d2d    0xbc  Code  Gb  rom.o [7]
+__rtl_ftol_v1_00        0x000299e5    0x6a  Code  Gb  rom.o [7]
+__rtl_hi0bits_v1_00     0x0002e809    0x3c  Code  Gb  rom.o [7]
+__rtl_i2b_v1_00         0x0002e585    0x12  Code  Gb  rom.o [7]
+__rtl_i64tod_v1_00      0x00029b79    0xda  Code  Gb  rom.o [7]
+__rtl_isatty_v1_00      0x000296c1    0x12  Code  Gb  rom.o [7]
+__rtl_itod_v1_00        0x00029ae9    0x90  Code  Gb  rom.o [7]
+__rtl_itof_v1_00        0x00029a51    0x98  Code  Gb  rom.o [7]
+__rtl_lo0bits           0x0002e4b9    0x5a  Code  Lc  rom.o [7]
+__rtl_lseek_v1_00       0x000296d5    0x14  Code  Gb  rom.o [7]
+__rtl_lshift_v1_00      0x0002e901    0xbc  Code  Gb  rom.o [7]
+__rtl_ltoa_v1_00        0x000297bd    0x96  Code  Gb  rom.o [7]
+__rtl_malloc_av_        0x10000780   0x408  Data  Lc  rom.o [7]
+__rtl_malloc_current_mallinfo
+                        0x10000b9c    0x28  Data  Lc  rom.o [7]
+__rtl_malloc_max_sbrked_mem
+                        0x10000b94     0x4  Data  Lc  rom.o [7]
+__rtl_malloc_max_total_mem
+                        0x10000b98     0x4  Data  Lc  rom.o [7]
+__rtl_malloc_r_v1_00    0x0002da31   0x522  Code  Gb  rom.o [7]
+__rtl_malloc_sbrk_base  0x10000b90     0x4  Data  Lc  rom.o [7]
+__rtl_malloc_top_pad    0x10000b8c     0x4  Data  Lc  rom.o [7]
+__rtl_malloc_trim_threshold
+                        0x10000b88     0x4  Data  Lc  rom.o [7]
+__rtl_memDump_v1_00     0x000068f5     0xc  Code  Gb  rom.o [7]
+__rtl_memDump_v1_00.part.7
+                        0x00006745    0xd8  Code  Lc  rom.o [7]
+__rtl_memalign_r_v1_00  0x0002e331    0xf0  Code  Gb  rom.o [7]
+__rtl_memchr_v1_00      0x00028a4d    0x92  Code  Gb  rom.o [7]
+__rtl_memcmp_v1_00      0x00028ae1    0x68  Code  Gb  rom.o [7]
+__rtl_memcmpb_v1_00     0x0000681d    0x44  Code  Gb  rom.o [7]
+__rtl_memcpy_v1_00      0x00028b49    0xa2  Code  Gb  rom.o [7]
+__rtl_memcpyb_v1_00     0x000068dd    0x16  Code  Gb  rom.o [7]
+__rtl_memcpyw_v1_00     0x000068bd    0x1e  Code  Gb  rom.o [7]
+__rtl_memmove_v1_00     0x00028bed    0xc8  Code  Gb  rom.o [7]
+__rtl_memset_v1_00      0x00028cb5    0x92  Code  Gb  rom.o [7]
+__rtl_memsetb_v1_00     0x000068ad    0x10  Code  Gb  rom.o [7]
+__rtl_memsetw_v1_00     0x00006899    0x12  Code  Gb  rom.o [7]
+__rtl_mult_v1_00        0x0002e629   0x13e  Code  Gb  rom.o [7]
+__rtl_multadd_v1_00     0x0002e599    0x90  Code  Gb  rom.o [7]
+__rtl_open_v1_00        0x000296e9    0x14  Code  Gb  rom.o [7]
+__rtl_pow5mult_v1_00    0x0002e769    0xa0  Code  Gb  rom.o [7]
+__rtl_pvalloc_r_v1_00   0x0002e42d    0x14  Code  Gb  rom.o [7]
+__rtl_random_v1_00      0x00006861    0x1e  Code  Gb  rom.o [7]
+__rtl_read_v1_00        0x000296fd    0x14  Code  Gb  rom.o [7]
+__rtl_realloc_r_v1_00   0x0002df55   0x3da  Code  Gb  rom.o [7]
+__rtl_sbrk_r_v1_00      0x0002ec41    0x2c  Code  Gb  rom.o [7]
+__rtl_sbrk_v1_00        0x00029725    0x12  Code  Gb  rom.o [7]
+__rtl_sclose_v1_00      0x0002ec11    0x30  Code  Gb  rom.o [7]
+__rtl_seofread_v1_00    0x0002eb39     0x4  Code  Gb  rom.o [7]
+__rtl_sflush_r_v1_00    0x0002ec6d   0x152  Code  Lc  rom.o [7]
+__rtl_sin_f32_v1_00     0x0002c435   0x202  Code  Gb  rom.o [7]
+__rtl_sinit.part.3      0x0002edc1   0x104  Code  Lc  rom.o [7]
+__rtl_sprint_r_v1_00.part.9
+                        0x0002f255   0x40a  Code  Lc  rom.o [7]
+__rtl_sread_v1_00       0x0002eae9    0x4e  Code  Gb  rom.o [7]
+__rtl_sseek_v1_00       0x0002ebc1    0x4e  Code  Gb  rom.o [7]
+__rtl_strcat_v1_00      0x00028d49    0x46  Code  Gb  rom.o [7]
+__rtl_strchr_v1_00      0x00028d91    0xc4  Code  Gb  rom.o [7]
+__rtl_strcmp_v1_00      0x00028e55    0x72  Code  Gb  rom.o [7]
+__rtl_strcpy_v1_00      0x00028ec9    0x4a  Code  Gb  rom.o [7]
+__rtl_strlen_v1_00      0x00028f15    0x52  Code  Gb  rom.o [7]
+__rtl_strncat_v1_00     0x00028f69    0x5c  Code  Gb  rom.o [7]
+__rtl_strncmp_v1_00     0x00028fc5    0xb6  Code  Gb  rom.o [7]
+__rtl_strncpy_v1_00     0x0002907d    0x68  Code  Gb  rom.o [7]
+__rtl_strsep_v1_00      0x0002960d     0xa  Code  Gb  rom.o [7]
+__rtl_strstr_v1_00      0x000293cd   0x23e  Code  Gb  rom.o [7]
+__rtl_strtok_r_v1_00    0x00029691     0x6  Code  Gb  rom.o [7]
+__rtl_strtok_v1_00      0x00029619    0x12  Code  Gb  rom.o [7]
+__rtl_swbuf_r_v1_00     0x0002f1b1    0xa2  Code  Lc  rom.o [7]
+__rtl_swrite_v1_00      0x0002eb3d    0x82  Code  Gb  rom.o [7]
+__rtl_swsetup_r         0x0002efb9   0x1f8  Code  Lc  rom.o [7]
+__rtl_two_way_long_needle_v1_00
+                        0x0002919d   0x22e  Code  Lc  rom.o [7]
+__rtl_uitod_v1_00       0x00029c55    0xd6  Code  Gb  rom.o [7]
+__rtl_uitof_v1_00       0x00029e89    0xda  Code  Gb  rom.o [7]
+__rtl_ultoa_v1_00       0x00029855    0x6e  Code  Gb  rom.o [7]
+__rtl_valloc_r_v1_00    0x0002e421     0xa  Code  Gb  rom.o [7]
+__rtl_vfprintf_r_v1_00  0x0002f661  0x15b4  Code  Gb  rom.o [7]
+__rtl_write_v1_00       0x00029711    0x14  Code  Gb  rom.o [7]
+__stderr_name           0x1000a610     0x8  Data  Gb  ram_libgloss_retarget.o [6]
+__stdin_name            0x1000a600     0x8  Data  Gb  ram_libgloss_retarget.o [6]
+__stdout_name           0x1000a608     0x8  Data  Gb  ram_libgloss_retarget.o [6]
+__vectors_table         0x00000000           --   Gb  rom.o [7]
+_memcmp                 0x0000f429    0x3a  Code  Gb  rom.o [7]
+_memcpy                 0x0000f465    0xaa  Code  Gb  rom.o [7]
+_memset                 0x0000f511    0x74  Code  Wk  rom.o [7]
+_pHAL_Gpio_Adapter      0x10000354     0x4  Data  Gb  rom.o [7]
+_parse_integer          0x0000f8bd    0x58  Code  Gb  rom.o [7]
+_parse_integer_fixup_radix
+                        0x0000f869    0x54  Code  Gb  rom.o [7]
+_rtl_impure_ptr         0x1000bca8     0x4  Data  Wk  rom.o [7]
+_sha1_pad_message       0x00015749    0x9c  Code  Gb  rom.o [7]
+_sha1_process_message_block
+                        0x000155b9   0x190  Code  Gb  rom.o [7]
+_sscanf                 0x0000ff71    0x1e  Code  Gb  rom.o [7]
+_strchr                 0x0000ffed    0x18  Code  Gb  rom.o [7]
+_strcmp                 0x0000f6b1    0x20  Code  Gb  rom.o [7]
+_strcpy                 0x0000f629    0x10  Code  Gb  rom.o [7]
+_strlen                 0x0000f651    0x16  Code  Gb  rom.o [7]
+_strncmp                0x0000f6d1    0x48  Code  Gb  rom.o [7]
+_strncpy                0x0000f60d    0x1c  Code  Gb  rom.o [7]
+_strnlen                0x0000f669    0x2e  Code  Gb  rom.o [7]
+_strpbrk                0x0000ffc1    0x2c  Code  Gb  rom.o [7]
+_strsep                 0x0000f7d5    0x3e  Code  Gb  rom.o [7]
+_vsscanf                0x0000f985   0x5ea  Code  Gb  rom.o [7]
+aes1_encrypt            0x00014a8d   0x1d6  Code  Gb  rom.o [7]
+aes1_mix_column         0x00014111   0x184  Code  Lc  rom.o [7]
+aes1_next_key           0x0001406d    0xa2  Code  Lc  rom.o [7]
+aes1_sbox_table         0x0003547c   0x100  Data  Lc  rom.o [7]
+aes_80211_decrypt       0x000151ad   0x40c  Code  Gb  rom.o [7]
+aes_80211_encrypt       0x00014e29   0x384  Code  Gb  rom.o [7]
+aes_cbc_decrypt         0x0001a579   0x188  Code  Gb  rom.o [7]
+aes_cbc_encrypt         0x0001a469   0x10e  Code  Gb  rom.o [7]
+aes_cfb_decrypt         0x0001a9e5   0x2e2  Code  Gb  rom.o [7]
+aes_cfb_encrypt         0x0001a701   0x2e4  Code  Gb  rom.o [7]
+aes_ctr_crypt           0x0001af7d   0x30c  Code  Gb  rom.o [7]
+aes_decrypt             0x000114a5  0x1124  Code  Gb  rom.o [7]
+aes_decrypt_key         0x0001b3a9    0x6e  Code  Gb  rom.o [7]
+aes_decrypt_key128      0x0001b351    0x1c  Code  Gb  rom.o [7]
+aes_decrypt_key192      0x0001b36d    0x1c  Code  Gb  rom.o [7]
+aes_decrypt_key256      0x0001b389    0x1e  Code  Gb  rom.o [7]
+aes_ecb_decrypt         0x0001a431    0x36  Code  Gb  rom.o [7]
+aes_ecb_encrypt         0x0001a3f9    0x36  Code  Gb  rom.o [7]
+aes_encrypt             0x000103d1  0x10d2  Code  Gb  rom.o [7]
+aes_encrypt_key         0x0001b2e1    0x6e  Code  Gb  rom.o [7]
+aes_encrypt_key128      0x0001b289    0x1c  Code  Gb  rom.o [7]
+aes_encrypt_key192      0x0001b2a5    0x1c  Code  Gb  rom.o [7]
+aes_encrypt_key256      0x0001b2c1    0x1e  Code  Gb  rom.o [7]
+aes_init                0x0001b419     0x4  Code  Gb  rom.o [7]
+aes_mode_reset          0x0001a3ed     0xa  Code  Gb  rom.o [7]
+aes_ofb_crypt           0x0001acc9   0x2b4  Code  Gb  rom.o [7]
+aes_set_key             0x00010005   0x3cc  Code  Gb  rom.o [7]
+aes_test_alignment_detection
+                        0x0001a391    0x5a  Code  Gb  rom.o [7]
+aesccmp_construct_ctr_preload
+                        0x00014db5    0x72  Code  Gb  rom.o [7]
+aesccmp_construct_mic_header1
+                        0x00014ccd    0x52  Code  Gb  rom.o [7]
+aesccmp_construct_mic_header2
+                        0x00014d21    0x92  Code  Gb  rom.o [7]
+aesccmp_construct_mic_iv
+                        0x00014c65    0x66  Code  Gb  rom.o [7]
+arc4_byte               0x00012895    0x28  Code  Gb  rom.o [7]
+base                    0x000366e0  0x7800  Data  Lc  rom.o [7]
+bignum_add              0x00017cfd    0x10  Code  Gb  rom.o [7]
+bignum_cmp              0x00017cd1     0x4  Code  Gb  rom.o [7]
+bignum_cmp_d            0x00017cd5    0x28  Code  Gb  rom.o [7]
+bignum_deinit           0x00017b61    0x20  Code  Gb  rom.o [7]
+bignum_exptmod          0x00017d2d    0x22  Code  Gb  rom.o [7]
+bignum_get_unsigned_bin
+                        0x00017b85    0x9a  Code  Gb  rom.o [7]
+bignum_get_unsigned_bin_len
+                        0x00017b81     0x4  Code  Gb  rom.o [7]
+bignum_init             0x00017b35    0x2a  Code  Gb  rom.o [7]
+bignum_mul              0x00017d1d    0x10  Code  Gb  rom.o [7]
+bignum_set_unsigned_bin
+                        0x00017c21    0xb0  Code  Gb  rom.o [7]
+bignum_sub              0x00017d0d    0x10  Code  Gb  rom.o [7]
+bigtens                 0x0003ebd0    0x28  Data  Lc  rom.o [7]
+blanks                  0x0003ec04    0x10  Data  Lc  rom.o [7]
+boot_blink_led          0x1000bbc4     0x4  Data  Lc  platform.o [2]
+bootloader              0x10000bc8  0x36cc  Data  Gb  ram_1.r.bin [1]
+bootloader_start_app    0x10006041    0x12  Code  Gb  BootloaderEntrance.o [2]
+cmov                    0x0001f625    0x2c  Code  Lc  rom.o [7]
+convert_ip_addr         0x00013dd1    0x32  Code  Gb  rom.o [7]
+cosTable                0x0003e2f0   0x40c  Data  Lc  rom.o [7]
+crc32_get               0x00012861    0x34  Code  Gb  rom.o [7]
+crc32_table             0x00034fb0   0x400  Data  Lc  rom.o [7]
+crypto_verify_32.constprop.0
+                        0x0001f7e5    0x86  Code  Lc  rom.o [7]
+curve25519_donna        0x0001965d   0xd32  Code  Gb  rom.o [7]
+d                       0x0003e2a0    0x28  Data  Lc  rom.o [7]
+d2                      0x000366b8    0x28  Data  Lc  rom.o [7]
+data                    0x1006a000  0x1000  Data  Lc  Update_for_OTA.o [2]
+deinit_platform_bootloader
+                        0x100064f9    0x1c  Code  Gb  platform_init.o [2]
+div_s64                 0x0000ff99     0x8  Code  Gb  rom.o [7]
+div_s64_rem             0x0000ffb1    0x10  Code  Gb  rom.o [7]
+div_u64                 0x0000ff91     0x8  Code  Gb  rom.o [7]
+div_u64_rem             0x0000ffa1    0x10  Code  Gb  rom.o [7]
+dot11_rate_table        0x000353f0     0xd  Data  Lc  rom.o [7]
+enable_protection       0x10006019    0x28  Code  Lc  BootloaderEntrance.o [2]
+end                     0x10004294     0x1  Data  Gb  ram_libgloss_retarget.o [6]
+fast_s_mp_mul_digs.isra.12
+                        0x00017161   0x19c  Code  Lc  rom.o [7]
+fe_add                  0x0001d919    0x70  Code  Lc  rom.o [7]
+fe_cmov                 0x0001d989    0xd0  Code  Lc  rom.o [7]
+fe_invert               0x0001e969   0x148  Code  Lc  rom.o [7]
+fe_mul                  0x0001da59   0x864  Code  Lc  rom.o [7]
+fe_neg                  0x0001e2bd    0x52  Code  Lc  rom.o [7]
+fe_sq                   0x0001e311   0x658  Code  Lc  rom.o [7]
+fe_sub                  0x0001eab1    0x7c  Code  Lc  rom.o [7]
+fe_tobytes              0x0001eb2d   0x1c4  Code  Lc  rom.o [7]
+findCommandPara         0x10006dcd    0xaa  Code  Gb  menu.o [2]
+first                   0x10000370     0x4  Data  Lc  rom.o [7]
+fmul                    0x00019635    0x26  Code  Lc  rom.o [7]
+fproduct                0x00018a45   0x3b0  Code  Lc  rom.o [7]
+freduce_coefficients    0x000190e5   0x146  Code  Lc  rom.o [7]
+freduce_degree          0x00018df5   0x2ee  Code  Lc  rom.o [7]
+fsquare                 0x0001925d   0x3d8  Code  Lc  rom.o [7]
+fsum                    0x00018a11    0x32  Code  Lc  rom.o [7]
+fw_loader_main          0x10008461    0xf6  Code  Gb  fw_loader_main.o [2]
+gFWLoaderEntryFun0      0x10006000     0x4  Data  Gb  fw_loader_main.o [2]
+gHAL_Gpio_Adapter       0x1000c0d8   0x12c  Data  Gb  hal_gpio.o [2]
+gTimerRecord            0x1000034c     0x4  Data  Gb  rom.o [7]
+g_ch                    0x1000bc04     0x4  Data  Gb  Retarget.o [2]
+ge_add                  0x0001ecf1    0x98  Code  Lc  rom.o [7]
+ge_madd                 0x0001ee3d    0x8c  Code  Lc  rom.o [7]
+ge_p1p1_to_p2           0x0001eec9    0x32  Code  Lc  rom.o [7]
+ge_p1p1_to_p3           0x0001eefd    0x42  Code  Lc  rom.o [7]
+ge_p2_dbl               0x0001ef41   0x66e  Code  Lc  rom.o [7]
+ge_p3_to_cached         0x0001f5b1    0x74  Code  Lc  rom.o [7]
+ge_select               0x0001f651   0x194  Code  Lc  rom.o [7]
+getline                 0x10006cff    0x76  Code  Gb  Getline.o [2]
+gmk_expansion_const     0x00035450    0x14  Data  Lc  rom.o [7]
+gpio_set                0x10008e95    0x26  Code  Gb  gpio_api.o [2]
+iar_data_init_fw_loader
+                        0x10008557    0x14  Code  Gb  fw_loader_main.o [2]
+impure_data             0x1000bcb0   0x428  Data  Lc  rom.o [7]
+init_architecture       0x10006663     0x4  Code  Gb  platform_init.o [2]
+init_clocks             0x10006635    0x2c  Code  Gb  platform_init.o [2]
+init_memory             0x10006661     0x2  Code  Wk  platform_init.o [2]
+init_platform_bootloader
+                        0x10006779    0x40  Code  Gb  platform.o [2]
+init_rom_libgloss_ram_map
+                        0x1000a5ad    0x24  Code  Gb  ram_libgloss_retarget.o [6]
+kCurve25519BasePoint    0x00036394    0x20  Data  Lc  rom.o [7]
+key_2char2num           0x00013db9    0x18  Code  Gb  rom.o [7]
+key_char2num            0x00013419    0x30  Code  Lc  rom.o [7]
+libc_has_init           0x1000bc08     0x4  Data  Lc  ram_libc.o [6]
+main                    0x10006053    0x6a  Code  Gb  BootloaderEntrance.o [2]
+md5_encode              0x0001292d    0x32  Code  Lc  rom.o [7]
+md5_transform           0x00012961   0x860  Code  Lc  rom.o [7]
+menu                    0x1000ad7c   0x3fc  Data  Gb  BootloaderEntrance.o [2]
+mico_get_time_no_os     0x10006667    0x24  Code  Gb  platform_init.o [2]
+mico_partitions         0x1000b314    0x8c  Data  Gb  platform.o [2]
+mico_set_bootload_ver   0x100063e1    0x74  Code  Gb  mico_platform_common.o [2]
+mp_2expt                0x00016a25    0x60  Code  Lc  rom.o [7]
+mp_add                  0x00016ee5    0x66  Code  Lc  rom.o [7]
+mp_clear                0x0001649d    0x3c  Code  Lc  rom.o [7]
+mp_cmp                  0x00016605    0x3a  Code  Lc  rom.o [7]
+mp_cmp_mag.isra.1       0x000165a1    0x62  Code  Lc  rom.o [7]
+mp_copy                 0x00016825    0x7a  Code  Lc  rom.o [7]
+mp_div.part.11          0x00016fb5   0x1aa  Code  Lc  rom.o [7]
+mp_div_2d               0x00016b65   0x166  Code  Lc  rom.o [7]
+mp_exch                 0x0001652d    0x24  Code  Lc  rom.o [7]
+mp_grow.isra.7          0x000167d1    0x54  Code  Lc  rom.o [7]
+mp_init                 0x00016465    0x38  Code  Lc  rom.o [7]
+mp_init_size            0x00016551    0x50  Code  Lc  rom.o [7]
+mp_lshd                 0x000168a1    0x6c  Code  Lc  rom.o [7]
+mp_mod_2d               0x00016a85    0xe0  Code  Lc  rom.o [7]
+mp_mul                  0x00017429    0x26  Code  Lc  rom.o [7]
+mp_mul_2d               0x00016ccd   0x122  Code  Lc  rom.o [7]
+mp_reduce               0x00017509   0x22c  Code  Lc  rom.o [7]
+mp_reduce_2k_l          0x00017451    0xb8  Code  Lc  rom.o [7]
+mp_rshd                 0x00016641    0x6a  Code  Lc  rom.o [7]
+mp_sub                  0x00016f4d    0x68  Code  Lc  rom.o [7]
+mp_unsigned_bin_size    0x000164d9    0x52  Code  Lc  rom.o [7]
+newData                 0x1006b000  0x1000  Data  Lc  Update_for_OTA.o [2]
+no_os_tick              0x1000bbcc     0x4  Data  Lc  platform_init.o [2]
+os_zalloc               0x00017d99    0x26  Code  Gb  rom.o [7]
+out                     0x100087a5    0x18  Code  Lc  xprintftiny.o [4]
+ovsr_adj_table_10bit    0x100093b0    0x14  Data  Gb  hal_uart.o [2]
+ovsr_adj_table_8bit     0x100093d8    0x10  Data  Gb  hal_uart.o [2]
+ovsr_adj_table_9bit     0x100093c4    0x14  Data  Gb  hal_uart.o [2]
+p05                     0x0003ebf8     0xc  Data  Lc  rom.o [7]
+pUartLogCtl             0x100003ac     0x4  Data  Gb  rtl_consol.o [2]
+paraSaveInRam           0x1006c000  0x4000  Data  Gb  Update_for_OTA.o [2]
+phy_CalculateBitShift   0x00018221    0x16  Code  Gb  rom.o [7]
+pin_function            0x1000a6f3     0x2  Code  Gb  pinmap.o [2]
+pinmap_find_peripheral  0x10008faf    0x1a  Code  Wk  pinmap_common.o [2]
+pinmap_merge            0x10008f7d    0x32  Code  Wk  pinmap_common.o [2]
+pinmap_peripheral       0x10008fc9    0x32  Code  Wk  pinmap_common.o [2]
+platform_bootloader_tick
+                        0x10006823    0x20  Code  Gb  platform.o [2]
+platform_flash_disable_protect
+                        0x10008329    0x2c  Code  Gb  platform_flash.o [2]
+platform_flash_drivers  0x1000bbac    0x18  Data  Gb  platform.o [2]
+platform_flash_enable_protect
+                        0x100082fd    0x2c  Code  Gb  platform_flash.o [2]
+platform_flash_erase    0x1000819d    0x88  Code  Gb  platform_flash.o [2]
+platform_flash_init     0x10008179    0x24  Code  Gb  platform_flash.o [2]
+platform_flash_peripherals
+                        0x1000b2cc    0x48  Data  Gb  platform.o [2]
+platform_flash_read     0x100082b5    0x48  Code  Gb  platform_flash.o [2]
+platform_flash_write    0x10008225    0x90  Code  Gb  platform_flash.o [2]
+platform_gpio_deinit    0x100078fb    0x1e  Code  Gb  platform_gpio.o [2]
+platform_gpio_init      0x100078d9    0x22  Code  Gb  platform_gpio.o [2]
+platform_gpio_input_get
+                        0x10007977    0x16  Code  Gb  platform_gpio.o [2]
+platform_gpio_ip_deinit
+                        0x10007919    0x12  Code  Gb  platform_gpio.o [2]
+platform_gpio_output_high
+                        0x1000792b    0x16  Code  Gb  platform_gpio.o [2]
+platform_gpio_output_low
+                        0x10007941    0x2e  Code  Gb  platform_gpio.o [2]
+platform_gpio_pins      0x1000b1e8    0xe4  Data  Gb  platform.o [2]
+platform_mcu_powersave_disable
+                        0x100079c5     0x4  Code  Gb  platform_mcu_powersave.o [2]
+platform_mcu_powersave_enable
+                        0x100079c9     0x4  Code  Gb  platform_mcu_powersave.o [2]
+platform_mcu_reset      0x1000661d    0x18  Code  Gb  platform_init.o [2]
+platform_uart_deinit    0x10007cc7    0x2c  Code  Gb  platform_uart.o [2]
+platform_uart_drivers   0x1000bb40    0x1c  Data  Gb  platform.o [2]
+platform_uart_init      0x10007c6d    0x5a  Code  Gb  platform_uart.o [2]
+platform_uart_irq       0x10007e39    0x32  Code  Gb  platform_uart.o [2]
+platform_uart_peripherals
+                        0x1000684c   0x204  Data  Gb  platform.o [2]
+platform_uart_receive_bytes
+                        0x10007d6d    0xa8  Code  Gb  platform_uart.o [2]
+platform_uart_rx_dma_irq
+                        0x10007e75     0x6  Code  Gb  platform_uart.o [2]
+platform_uart_transmit_bytes
+                        0x10007cf3    0x7a  Code  Gb  platform_uart.o [2]
+platform_uart_tx_dma_irq
+                        0x10007e6d     0x6  Code  Gb  platform_uart.o [2]
+pmk_expansion_const     0x00035464    0x17  Data  Lc  rom.o [7]
+poly1305_update         0x0001b891   0x392  Code  Lc  rom.o [7]
+printf                  0x10006da9    0x24  Code  Gb  printf.o [4]
+prvAtoi                 0x0000f769    0x52  Code  Gb  rom.o [7]
+prvDiagPrintf           0x0000f3ed    0x1e  Code  Gb  rom.o [7]
+prvDiagSPrintf          0x0000f40d    0x1c  Code  Gb  rom.o [7]
+prvStrCmp               0x0000f719    0x2e  Code  Gb  rom.o [7]
+prvStrCpy               0x0000f639    0x16  Code  Gb  rom.o [7]
+prvStrLen               0x0000f699    0x18  Code  Gb  rom.o [7]
+prvStrStr               0x0000f7bd    0x16  Code  Gb  rom.o [7]
+putchar                 0x1000878d    0x18  Code  Gb  Retarget.o [2]
+quorem                  0x0002c649   0x134  Code  Lc  rom.o [7]
+ram_libgloss_close      0x1000a515     0x2  Code  Gb  ram_libgloss_retarget.o [6]
+ram_libgloss_fstat      0x1000a517    0x1a  Code  Gb  ram_libgloss_retarget.o [6]
+ram_libgloss_isatty     0x1000a531     0xa  Code  Gb  ram_libgloss_retarget.o [6]
+ram_libgloss_lseek      0x1000a53b     0x2  Code  Gb  ram_libgloss_retarget.o [6]
+ram_libgloss_open       0x1000a549    0x34  Code  Gb  ram_libgloss_retarget.o [6]
+ram_libgloss_read       0x1000a57d     0x2  Code  Gb  ram_libgloss_retarget.o [6]
+ram_libgloss_sbrk       0x1000a599    0x14  Code  Gb  ram_libgloss_retarget.o [6]
+ram_libgloss_write      0x1000a57f    0x1a  Code  Gb  ram_libgloss_retarget.o [6]
+rcon_table              0x0003557c     0xc  Data  Lc  rom.o [7]
+ring_buffer_consume     0x100086b1    0x14  Code  Gb  RingBufferUtils.o [2]
+ring_buffer_get_data    0x1000868b    0x26  Code  Gb  RingBufferUtils.o [2]
+ring_buffer_init        0x10008669     0xe  Code  Gb  RingBufferUtils.o [2]
+ring_buffer_used_space  0x10008677     0x6  Code  Gb  RingBufferUtils.o [2]
+ring_buffer_write       0x100086c5    0x68  Code  Gb  RingBufferUtils.o [2]
+rom_aes_128_cbc_decrypt
+                        0x00015ae1    0x7c  Code  Gb  rom.o [7]
+rom_aes_128_cbc_encrypt
+                        0x00015a65    0x7c  Code  Gb  rom.o [7]
+rom_aes_decrypt_deinit  0x00016071    0x12  Code  Gb  rom.o [7]
+rom_aes_decrypt_init    0x00015c39    0xdc  Code  Gb  rom.o [7]
+rom_aes_encrypt_deinit  0x00016451    0x12  Code  Gb  rom.o [7]
+rom_aes_encrypt_init    0x00016085    0x18  Code  Gb  rom.o [7]
+rom_aes_internal_decrypt
+                        0x00015d15   0x35c  Code  Gb  rom.o [7]
+rom_aes_internal_encrypt
+                        0x0001609d   0x3b2  Code  Gb  rom.o [7]
+rom_ed25519_crypto_sign_detached
+                        0x0001d579    0xdc  Code  Gb  rom.o [7]
+rom_ed25519_crypto_sign_seed_keypair
+                        0x0001d521    0x56  Code  Gb  rom.o [7]
+rom_ed25519_crypto_sign_verify_detached
+                        0x0001d655   0x2c2  Code  Gb  rom.o [7]
+rom_ed25519_ge_double_scalarmult_vartime
+                        0x0001f86d   0x3c8  Code  Gb  rom.o [7]
+rom_ed25519_ge_frombytes_negate_vartime
+                        0x0001fc35   0xba0  Code  Gb  rom.o [7]
+rom_ed25519_ge_p3_tobytes
+                        0x000207d5    0x4a  Code  Gb  rom.o [7]
+rom_ed25519_ge_scalarmult_base
+                        0x00020821   0x1c0  Code  Gb  rom.o [7]
+rom_ed25519_ge_tobytes  0x000209e1    0x4a  Code  Gb  rom.o [7]
+rom_ed25519_gen_keypair
+                        0x0001d501     0x4  Code  Gb  rom.o [7]
+rom_ed25519_gen_signature
+                        0x0001d505    0x18  Code  Gb  rom.o [7]
+rom_ed25519_sc_muladd   0x00020a2d  0x5610  Code  Gb  rom.o [7]
+rom_ed25519_sc_reduce   0x0002603d  0x2a0e  Code  Gb  rom.o [7]
+rom_ed25519_verify_signature
+                        0x0001d51d     0x4  Code  Gb  rom.o [7]
+rom_hmac_sha256         0x00017ebd    0x1c  Code  Gb  rom.o [7]
+rom_hmac_sha256_vector  0x00017dc1    0xfc  Code  Gb  rom.o [7]
+rom_libgloss_ram_map    0x10000760    0x20  Data  Gb  rom.o [7]
+rom_psk_CalcGTK         0x00013ed5    0x92  Code  Gb  rom.o [7]
+rom_psk_CalcPTK         0x00013f69   0x104  Code  Gb  rom.o [7]
+rom_psk_PasswordHash    0x00013e9d    0x38  Code  Gb  rom.o [7]
+rom_rijndaelKeySetupEnc
+                        0x00015b5d    0xdc  Code  Gb  rom.o [7]
+rom_sha256_vector       0x00018009   0x216  Code  Gb  rom.o [7]
+rom_sha512              0x0001d261    0x36  Code  Gb  rom.o [7]
+rom_sha512_finish       0x0001d011   0x250  Code  Gb  rom.o [7]
+rom_sha512_hkdf         0x0001d40d    0xf2  Code  Gb  rom.o [7]
+rom_sha512_hmac         0x0001d3d1    0x3c  Code  Gb  rom.o [7]
+rom_sha512_hmac_finish  0x0001d365    0x4e  Code  Gb  rom.o [7]
+rom_sha512_hmac_reset   0x0001d3b5    0x1a  Code  Gb  rom.o [7]
+rom_sha512_hmac_starts  0x0001d299    0xc2  Code  Gb  rom.o [7]
+rom_sha512_hmac_update  0x0001d35d     0x6  Code  Gb  rom.o [7]
+rom_sha512_starts       0x0001ceb5   0x154  Code  Gb  rom.o [7]
+rom_sha512_update       0x0001d009     0x6  Code  Gb  rom.o [7]
+rom_sha512_update.part.0
+                        0x0001cded    0xc6  Code  Lc  rom.o [7]
+rom_wlan_ram_map        0x100006d4     0x8  Data  Gb  rom_wlan_ram_map.o [7]
+rom_wps_Td0             0x00035e94   0x400  Data  Gb  rom.o [7]
+rom_wps_Td4s            0x00035d94   0x100  Data  Gb  rom.o [7]
+rom_wps_Te0             0x00035988   0x400  Data  Gb  rom.o [7]
+rom_wps_rcons           0x00035d88     0xa  Data  Gb  rom.o [7]
+rt_arc4_crypt           0x00012901    0x2a  Code  Gb  rom.o [7]
+rt_arc4_init            0x000128bd    0x42  Code  Gb  rom.o [7]
+rt_hmac_sha1            0x00015909   0x15a  Code  Gb  rom.o [7]
+rt_md5_append           0x000131f5    0x88  Code  Gb  rom.o [7]
+rt_md5_final            0x0001327d    0x56  Code  Gb  rom.o [7]
+rt_md5_hmac             0x000132d5   0x144  Code  Gb  rom.o [7]
+rt_md5_init             0x000131c1    0x34  Code  Gb  rom.o [7]
+rt_sha1_finish          0x000158a9    0x60  Code  Gb  rom.o [7]
+rt_sha1_init            0x000157e5    0x4c  Code  Gb  rom.o [7]
+rt_sha1_update          0x00015831    0x76  Code  Gb  rom.o [7]
+rtk_gpio_deinit         0x100078c9    0x10  Code  Gb  platform_gpio.o [2]
+rtk_gpio_init           0x10007891    0x38  Code  Gb  platform_gpio.o [2]
+rtk_uart_deinit         0x10007b73    0x54  Code  Gb  platform_uart.o [2]
+rtk_uart_getc           0x10007c4f    0x1e  Code  Gb  platform_uart.o [2]
+rtk_uart_init           0x100079e5   0x18e  Code  Gb  platform_uart.o [2]
+rtk_uart_readable       0x10007c37    0x18  Code  Gb  platform_uart.o [2]
+rtk_uart_recv_stream_timeout
+                        0x10007bc7    0x70  Code  Gb  platform_uart.o [2]
+rtl_memcmp              0x10008445     0x4  Code  Gb  ram_libc.o [6]
+rtl_memcpy              0x10008449     0x4  Code  Gb  ram_libc.o [6]
+rtl_memset              0x1000844d     0x4  Code  Gb  ram_libc.o [6]
+rtl_snprintf            0x100083c1    0x7c  Code  Gb  ram_libc.o [6]
+rtl_strcmp              0x10008451     0x4  Code  Gb  ram_libc.o [6]
+rtl_strncpy             0x10008455     0x4  Code  Gb  ram_libc.o [6]
+rtw_check_network_type  0x000134dd    0x2e  Code  Gb  rom.o [7]
+rtw_get_bit_value_from_ieee_value
+                        0x00013449    0x2c  Code  Gb  rom.o [7]
+rtw_get_ie              0x0001355d    0x32  Code  Gb  rom.o [7]
+rtw_get_rateset_len     0x00013611    0x1c  Code  Gb  rom.o [7]
+rtw_get_sec_ie          0x00013965    0xb0  Code  Gb  rom.o [7]
+rtw_get_wpa2_cipher_suite
+                        0x00013769    0x68  Code  Gb  rom.o [7]
+rtw_get_wpa2_ie         0x000136c9    0x36  Code  Gb  rom.o [7]
+rtw_get_wpa_cipher_suite
+                        0x00013701    0x68  Code  Gb  rom.o [7]
+rtw_get_wpa_ie          0x0001362d    0x9c  Code  Gb  rom.o [7]
+rtw_get_wps_attr        0x00013a99    0xb0  Code  Gb  rom.o [7]
+rtw_get_wps_attr_content
+                        0x00013b49    0x48  Code  Gb  rom.o [7]
+rtw_get_wps_ie          0x00013a15    0x84  Code  Gb  rom.o [7]
+rtw_ieee802_11_parse_elems
+                        0x00013b91   0x20a  Code  Gb  rom.o [7]
+rtw_is_cckrates_included
+                        0x00013475    0x3e  Code  Gb  rom.o [7]
+rtw_is_cckratesonly_included
+                        0x000134b5    0x28  Code  Gb  rom.o [7]
+rtw_parse_wpa2_ie       0x000138ad    0xb8  Code  Gb  rom.o [7]
+rtw_parse_wpa_ie        0x000137d1    0xdc  Code  Gb  rom.o [7]
+rtw_seccalctkipmic      0x0001449d   0x106  Code  Gb  rom.o [7]
+rtw_secgetmic           0x00014435    0x66  Code  Gb  rom.o [7]
+rtw_secmicappend        0x00014419    0x1a  Code  Gb  rom.o [7]
+rtw_secmicsetkey        0x000143d9    0x40  Code  Gb  rom.o [7]
+rtw_set_fixed_ie        0x0001350d    0x20  Code  Gb  rom.o [7]
+rtw_set_ie              0x0001352d    0x2e  Code  Gb  rom.o [7]
+rtw_set_supported_rate  0x00013591    0x80  Code  Gb  rom.o [7]
+s_mp_add                0x0001690d   0x116  Code  Lc  rom.o [7]
+s_mp_exptmod.constprop.13
+                        0x00017735   0x400  Code  Lc  rom.o [7]
+s_mp_mul_digs           0x000172fd   0x12c  Code  Lc  rom.o [7]
+s_mp_sqr.isra.5         0x000166ad   0x124  Code  Lc  rom.o [7]
+s_mp_sub.isra.10        0x00016df1    0xf2  Code  Lc  rom.o [7]
+send_ca                 0x10008917    0x1e  Code  Lc  ymodem.o [2]
+serial_dma_en           0x1000bbd0     0xc  Data  Lc  platform_uart.o [2]
+sha256_compress         0x00017ed9   0x130  Code  Lc  rom.o [7]
+sha512_padding          0x00036638    0x80  Data  Lc  rom.o [7]
+sha512_process          0x0001bfc1   0xe2a  Code  Lc  rom.o [7]
+simple_strtol           0x0000f96d    0x18  Code  Gb  rom.o [7]
+simple_strtoll          0x0000f945    0x1e  Code  Gb  rom.o [7]
+simple_strtoul          0x0000f965     0x8  Code  Gb  rom.o [7]
+simple_strtoull         0x0000f915    0x2e  Code  Gb  rom.o [7]
+sinTable                0x0003e6fc   0x40c  Data  Lc  rom.o [7]
+skip_atoi               0x0000f831    0x38  Code  Gb  rom.o [7]
+skip_spaces             0x0000f815    0x1a  Code  Gb  rom.o [7]
+slide                   0x0001ed89    0xb2  Code  Lc  rom.o [7]
+spi_flash_init          0x10007fad    0x36  Code  Gb  platform_flash.o [2]
+spi_flash_stream_read   0x10007fe3    0xa2  Code  Gb  platform_flash.o [2]
+spi_flash_stream_write  0x10008085    0xd4  Code  Gb  platform_flash.o [2]
+sqrtm1                  0x0003e2c8    0x28  Data  Lc  rom.o [7]
+startApplication        0x10006515   0x108  Code  Gb  platform_init.o [2]
+stdio_break_in          0x10006d75    0x2a  Code  Gb  Getline.o [2]
+stdio_rx_buffer         0x1000bb5c    0x10  Data  Lc  platform.o [2]
+stdio_rx_data           0x1000bb6c    0x40  Data  Lc  platform.o [2]
+stdio_uart_config       0x10006a50    0x18  Data  Lc  platform.o [2]
+str_2char2num           0x00013d9d    0x1c  Code  Gb  rom.o [7]
+strlen                  0x1000a619          Code  Gb  strlen.o [8]
+swap_conditional        0x0001922d    0x30  Code  Lc  rom.o [7]
+tab_1024                0x1000b640   0x400  Data  Gb  menu.o [2]
+tens                    0x0003eb08    0xc8  Data  Lc  rom.o [7]
+tkip_80211_decrypt      0x000149d5    0xb6  Code  Gb  rom.o [7]
+tkip_80211_encrypt      0x00014941    0x94  Code  Gb  rom.o [7]
+tkip_micappendbyte      0x00014389    0x50  Code  Gb  rom.o [7]
+tkip_phase1             0x000145a5   0x180  Code  Gb  rom.o [7]
+tkip_phase2             0x00014725   0x21a  Code  Gb  rom.o [7]
+toupper                 0x100088f5     0xc  Code  Gb  toupper.o [4]
+update                  0x10006b37   0x1b0  Code  Gb  Update_for_OTA.o [2]
+updateLogCheck          0x10006a69    0xce  Code  Gb  Update_for_OTA.o [2]
+vPortSVCHandler {Abs}   0x00000000           --   Gb  command line/config [3]
+vTaskDelete {Abs}       0x00000000           --   Gb  command line/config [3]
+wep_80211_decrypt       0x000142f5    0x92  Code  Gb  rom.o [7]
+wep_80211_encrypt       0x00014295    0x60  Code  Gb  rom.o [7]
+wiced_gpio_input_get    0x1000612f    0x16  Code  Gb  mico_platform_common.o [2]
+wps_oui                 0x00035440     0x4  Data  Lc  rom.o [7]
+xPortPendSVHandler {Abs}
+                        0x00000000           --   Gb  command line/config [3]
+xPortSysTickHandler {Abs}
+                        0x00000000           --   Gb  command line/config [3]
+ymodem_upload_done      0x10006815     0xe  Code  Gb  platform.o [2]
+z1                      0x10000374     0x4  Data  Lc  rom.o [7]
+z2                      0x10000378     0x4  Data  Lc  rom.o [7]
+z3                      0x1000037c     0x4  Data  Lc  rom.o [7]
+z4                      0x10000380     0x4  Data  Lc  rom.o [7]
+zeroes                  0x0003ec14    0x10  Data  Lc  rom.o [7]
+
+
+[1] = E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\..\..\..\component\soc\realtek\8195a\misc\bsp\image
+[2] = E:\qe\MIKO-SDK-3081\mico.git\Projects\RTL8711\bootloader\EMW3081\Obj
+[3] = command line
+[4] = dl7M_tln.a
+[5] = lib_platform.a
+[6] = lib_rtlstd.a
+[7] = rom.a
+[8] = rt7M_tl.a
+
+   23 598 bytes of readonly  code memory
+  276 520 bytes of readwrite code memory
+   14 636 bytes of readonly  data memory
+   32 319 bytes of readwrite data memory
+
+Errors: none
+Warnings: 5

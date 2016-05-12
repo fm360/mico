@@ -1,0 +1,3449 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1471315966</fileChecksum>
+  <configuration>
+    <name>EMW3081</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\tropicssl\bignum.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\aes\aes_cbc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\AC\src\ac_hal.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\AC\src\ac_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\crc\crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\aes\aes_core.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_client_manager.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_bc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\tropicssl\rsa.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_cloud_event.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_configuration.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_message_queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_moudle_manager.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_protocol_controller.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\Adaptor\zc_mx_adpter.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_sec_engine.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\UartRecv.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\LocalTcpServer.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\MICOAppEntrance.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\MICOConfigDelegate.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\RemoteTcpClient.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\SppProtocol.c</file>
+      <file>$PROJ_DIR$\..\..\..\Board\EMW3081\fw_loader_main.c</file>
+      <file>$PROJ_DIR$\..\..\..\Board\EMW3081\platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\Board\EMW3081\platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\Board\EMW3081\platform_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\driver\rtl_consol.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\debug.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\arraylist.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\json_object.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\json_tokener.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\json_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\linkhash.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\printbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\SHAUtils\hkdf.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\SHAUtils\hmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\SHAUtils\sha1.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\SHAUtils\sha224-256.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\SHAUtils\sha384-512.c</file>
+      <file>$PROJ_DIR$\..\..\..\External\SHAUtils\usha.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\pinmap_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\analogin_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\dma_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\efuse_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\flash_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\gpio_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\gpio_irq_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\i2c_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\i2s_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\nfc_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\pinmap.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\common\wait_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\port_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\pwmout_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\rtc_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\serial_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\sleep.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\spi_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\sys_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\timer_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\us_ticker.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\common\us_ticker_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\wdt_api.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\api\at_cmd\log_service.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\driver\low_level_io.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_32k.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_sdr_controller.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_gdma.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_i2s.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_mii.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_nfc.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_pcm.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_pwm.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_soc_ps_monitor.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\ram_lib\hal_spi_flash_ram.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\bsp\lib\common\IAR\lib_platform.a</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_ssi.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\bsp\lib\common\IAR\lib_rtlstd.a</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\bsp\lib\common\IAR\lib_wlan.a</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\bsp\lib\va0\rom.a</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_gdma.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_i2s.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_nfc.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_pwm.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_ssi.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\ram_lib\wlan\tcm_heap.c</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\device\system_8195a.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\platform_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_mcu_powersave.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_pwm.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_rng.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_watchdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\Airkiss\Airkiss.c</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\mico_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\Airkiss\Airkiss_CM3_Debug.a</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\Airkiss\airkiss_discovery.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\Airkiss\libairkiss.a</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\EasyLink\EasyLink.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\SoftAP\EasyLinkSoftAP.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\Library\MICOConfig.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\Library\mxchipWNET_3081.a</file>
+      <file>$PROJ_DIR$\..\..\..\Support\AESUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\Support\CheckSumUtils.c</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\COM.MXCHIP.pbd</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hmac.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\pwmout_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_vector_table.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOCli.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\UartRecv.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl_consol.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\i2c_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_common.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\TLVUtils.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\SecurityUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoAlgorithm.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_i2c.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOMfgtest.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_i2s.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hmac.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOBonjour.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\device\cmsis_nvic.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_i2s.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtc_api.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\CheckSumUtils.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\wait_api.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_init.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\List\application.log</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_flash.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_timer.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\RingBufferUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\driver\rtl_consol.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\json_tokener.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_sec_engine.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_mcu_powersave.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\bsp\image\ram_1.r.bin</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOConfigServer.o</file>
+      <file>$PROJ_DIR$\EMW3081\List\application.map</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\pinmap.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\ex_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_message_queue.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\system_8195a.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hkdf.o</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\tropicssl\rsa.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_ssi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_uart.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_cloud_event.o</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\json_object.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\analogin_api.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\ac_api.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOConfigMenu.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\aes_core.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\device\rtl_utility.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\gpio_irq_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_rtc.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOForceOTA.o</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverAdc.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOMfgtest.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_pcm.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_timer.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\SocketUtils.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtc_api.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\EasyLinkSoftAP.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\json_inttypes.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\device\strproc.h</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\include\PlatformLogging.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\pinmap_common.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_gdma.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_cloud_event.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\dma_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_irqn.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\device\va_list.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl_consol.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_i2c.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_i2c.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\StringUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_mii.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_timer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\gpio_ex_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\include\platform_peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\Support\CheckSumUtils.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_init.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\SHAUtils.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\us_ticker.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_soc_ps_monitor.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\SocketUtils.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\arraylist.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_gdma.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_timer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\sys_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\rtc_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_adc.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\flash_api.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\json_object.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\linkhash.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\EasyLink.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\i2c_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOSystemMonitor.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_pcm.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\nfc_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverRng.h</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\AC\inc\ac_hal.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\low_level_io.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_moudle_manager.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_peri_on.h</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\AC\inc\ac_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\timer_api.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverSpi.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_32k.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\printbuf.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOConfigServer.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\sha1.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_timer.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\Airkiss.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\spi_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\us_ticker.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_ssi.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\json_util.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\port_api.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_ssi.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\common\bsp\basic_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\api\platform\platform_stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\inc\build_info.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_spi.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_spi_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_pcm.h</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_mcu_peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\json_util.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_sec_engine.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\tropicssl\secconfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\PeripheralNames.h</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\json.h</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_configuration.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOParaStorage.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_uart.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOConfig.o</file>
+      <file>$PROJ_DIR$\..\..\..\include\MICO.h</file>
+      <file>$PROJ_DIR$\..\inc\platform_autoconf.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MICORTOS.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\wdt_api.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\Airkiss\Airkiss.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverI2c.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOParaStorage.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\gpio_api.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\json_object.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoWlan.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOCli.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\serial_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\i2c_ex_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\PinNames.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_mcu_powersave.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_pwm.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\mico_platform_common.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\pwmout_api.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_module_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_mii.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoPlatform.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rsa.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rsa.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverGpio.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_gpio.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\linkhash.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\analogin_api.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_timer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\Support\TimeUtils.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_mx_adpter.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOEntrance.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\crc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICODefine.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\us_ticker_api.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\TimeUtils.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICONTPClient.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_misc.h</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\Cortex-M3\platform_assert.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\serial_api.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOConfigMenu.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOBonjour.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOSystemMonitor.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\dma_api.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\UartRecv.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\pwmout_api.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_mii.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MICODriverNanoSecond.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_adc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\nfc_api.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\efuse_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\MicoDefaults.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOConfigDelegate.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_sdr.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_diag.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\flash_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\RingBufferUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\SppProtocol.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_protocol_controller.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\system_8195a.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverUart.h</file>
+      <file>$PROJ_DIR$\..\inc\platform_opts.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_watchdog.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\wait_api.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Support\SocketUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\dma_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverMFiAuth.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\HTTPUtils.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\objects.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_pwm.o</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\json_tokener.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_gpio.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOConfig.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_flash.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\wdt_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\Cortex-M3\crt0.h</file>
+      <file>$PROJ_DIR$\..\..\..\Support\RingBufferUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverWdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_pwm.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\usha.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\i2s_api.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_adc.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_client_manager.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_rtc.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_nfc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_platform.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\sys_api.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOForceOTA.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\device.h</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\tropicssl\bignum.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_util.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\pinmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\wdt_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\CheckSumUtils.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\External\SHAUtils\sha-private.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\sha224-256.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_i2c.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_configuration.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_message_queue.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_cloud_event.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_dac.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\usha.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_bc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_sdr_controller.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\aes\aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_gdma.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_common.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\tftp\tftp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\sha1.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\Board\EMW3081\micoLinkerForIAR.icf</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_spi_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\Support\HTTPUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\Support\MDNSUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\MICOBonjour.c</file>
+      <file>$PROJ_DIR$\..\..\..\Support\RingBufferUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\Support\SecurityUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\Support\SHAUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\Support\SocketUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\Support\StringUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\Support\TimeUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\Support\TLVUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\Support\URLUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\WAC\MFi_WAC_CM3_Debug.a</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOCli.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOConfigMenu.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOConfigServer.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOEntrance.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOForceOTA.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOMfgtest.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICONotificationCenter.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICONTPClient.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOParaStorage.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOSystemMonitor.c</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\tftp\tftpc.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\i2c_api.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\include\common.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_pwm.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\include\platform_init.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_protocol_controller.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_message_queue.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_common.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\json_tokener.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\SecurityUtils.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_timer.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_configuration.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_gdma.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\sleep.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Support\SHAUtils.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\TimeUtils.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MDNSUtils.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MDNSUtils.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\timer_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\common\bsp\section_config.h</file>
+      <file>$PROJ_DIR$\EMW3081\Exe\application.axf</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_module_config.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\spi_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\include\wlan_platform_common.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_sec_engine.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\PortNames.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_i2s.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_sys_on.h</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\MICOAppDefine.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\sha224-256.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoSocket.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\ac_hal.o</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\printbuf.h</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\aes\aes_locl.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_bc.o</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOConfigMenu.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\HTTPUtils.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_uart.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOConfigDelegate.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\pinmap.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_wdt.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_watchdog.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_pwm.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\i2s_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_ssi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_protocol_controller.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_uart.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\json_util.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\sleep_ex_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOEntrance.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_moudle_manager.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\serial_ex_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\SoftAP\EasyLinkSoftAP.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\URLUtils.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+      <file>$PROJ_DIR$\..\..\..\External\SHAUtils\sha.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_ssi.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_i2s.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\sha384-512.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_client_manager.o</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_gpio.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\spi_api.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\gpio_irq_api.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\Support\TLVUtils.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\EasyLink.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\linkhash.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\serial_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\gpio_irq_ex_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\json_object_private.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\us_ticker_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_soc_ps_monitor.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_sdr_controller.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_nfc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\ac_api.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\sha384-512.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\fw_loader_main.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_pcm.o</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\Airkiss\airkiss_discovery.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\airkiss_discovery.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\airkiss_discovery.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_pinmux.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\device\diag.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\timer_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\mico_platform_common.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_soc_ps_monitor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Support\HTTPUtils.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\arraylist.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICONotificationCenter.o</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverPwm.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\api\wait_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOAppEntrance.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\gpio_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_protocol_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_nfc.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_mx_adpter.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\Airkiss.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\port_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\PinNames.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\pinmap_common.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\aes_cbc.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\WAC\MFi_WAC.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_pwm.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\device\rand.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\low_level_io.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_nfc.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_efuse.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_mii.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\rtl_std_lib\include\rtl_lib.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\fw_loader_main.o</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\AC\inc\ac_cfg.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_spi_flash_ram.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\crc.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\ac_hal.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\bignum.o</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverFlash.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_gdma.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\sleep.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOSystemMonitor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Support\SecurityUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\Adaptor\zc_mx_adpter.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\flash_api.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\gpio_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\bignum.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\nfc_api.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\WPS\WPS.h</file>
+      <file>$PROJ_DIR$\..\..\..\Support\MDNSUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\port_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\efuse_api.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICONTPClient.o</file>
+      <file>$PROJ_DIR$\..\..\..\include\MicoDrivers\MicoDriverRtc.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\platform_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\Support\StringUtils.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\gpio_irq_api.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\spi_ex_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\Debug.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICONotificationCenter.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\EasyLink\EasyLink.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\us_ticker_api.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal\analogin_api.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\arraylist.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_gpio.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\aes_core.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\EasyLinkSoftAP.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\printbuf.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_spi_flash_ram.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\TLVUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\timer_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\bits.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\device\cmsis.h</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICONotificationCenter.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_32k.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_uart.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\SHAUtils.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\StringUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\rtl8195a_peri_on.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\URLUtils.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_gdma.o</file>
+      <file>$PROJ_DIR$\..\..\..\Support\URLUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\component\common\mbed\hal_ext\sys_api.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hkdf.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\zc\zc_client_manager.h</file>
+      <file>$PROJ_DIR$\..\..\..\External\JSON-C\config.h</file>
+      <file>$PROJ_DIR$\..\..\..\MICO\MICOCli.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\zc_bc.pbi</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\i2s_api.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\hal_sdr_controller.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\MICOAppEntrance.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\hal_gpio.o</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\rtl8195a_ssi.o</file>
+      <file>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\inc\tropicssl\bn_mul.h</file>
+      <file>$PROJ_DIR$\EMW3081\Obj\aes_cbc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 442 159 147</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\tropicssl\bignum.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 555</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 546</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 574 455 134 607 444 231 313 347 260 372 129 388 395 213 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 260 372 607 129 444 231 279 574 134 213 212 347 395 313 455 388</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\aes\aes_cbc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 608</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 531</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212 231 347 574 390 279 345 459 134 395 213 313 455</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 345 279 574 134 213 212 347 395 390 459 231 313 455</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\AC\src\ac_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 545</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 457</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 524 231 313 213 165 574 228 279 134 395 372 129 472 263 455 212 598 233 542 288 444 388 347 155 592 323 428 384 240 387</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129 444 231 279 574 134 213 212 347 395 313 455 388 524 472 428 155 165 372 384 598 240 263 387 233 228 592 323 542 288</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\AC\src\ac_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 504</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 524 279 347 129 444 472 455 387 288 231 313 384 228 388 428 240 372 233 134 395 213 212 155 598 263 165 592 323</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129 444 231 279 574 134 213 212 347 395 313 455 388 524 472 428 155 165 372 384 598 240 263 387 228 233 592 323 288</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\crc\crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 544</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\aes\aes_core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 577</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 345 390 347 279 388 459 134 395 213 212 313</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 345 279 574 134 213 212 347 395 388 313 390 459</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_client_manager.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 364</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 486</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212 279 428 598 455 574 472 129 231 313 134 395 213 240 444 388 347 384 387 165 372 524 155 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129 444 231 279 574 134 213 212 347 395 313 455 388 472 524 428 155 165 372 384 598 240 263 387</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_bc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 601</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 460</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 444 428 388 279 347 472 574 240 129 231 313 455 134 395 213 212 384 387 165 372 524 155 598 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 387 129 444 231 279 574 134 213 212 347 395 313 455 388 472 524 428 155 165 372 384 598 240 263</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\tropicssl\rsa.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 455 134 574 165 444 231 313 347 260 129 372 388 395 213 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 260 165 372 129 444 231 279 574 134 213 212 347 395 313 455 388</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 212 129 455 574 384 231 313 134 395 213 444 387 165 372 472 388 347 428 240 524 155 598 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 240 129 444 231 279 574 134 213 212 347 395 313 455 388 472 524 428 155 165 372 384 598 263 387</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_cloud_event.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 313 574 240 231 213 279 134 395 129 472 455 212 428 444 388 347 384 387 165 372 524 155 598 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 384 129 444 231 279 574 134 213 212 347 395 313 455 388 472 524 428 155 165 372 598 240 263 387</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_configuration.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 433</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 382</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 444 524 388 279 347 384 129 574 387 372 472 231 313 455 134 395 213 212 428 240 263 155 598 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 263 129 444 231 279 574 134 213 212 347 395 313 455 388 524 472 428 155 165 372 384 598 240 387</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 495</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 429</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 347 279 384 472 155 444 388 387 129 231 313 455 134 395 213 212 428 240 165 372 524 598 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129 444 231 279 574 134 213 212 347 395 313 455 388 472 524 428 155 165 372 384 598 240 263 387</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_message_queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129 444 574 347 279 387 472 388 384 231 313 455 134 395 213 212 428 240 165 372 524 155 598 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 428 129 444 231 279 574 134 213 212 347 395 313 455 388 472 524 155 165 372 384 598 240 263 387</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_moudle_manager.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 230</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 477</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129 444 388 279 347 524 372 472 574 598 288 231 313 455 134 395 213 212 155 263 428 384 240 387 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129 444 231 279 574 134 213 212 347 395 313 455 388 472 524 428 155 165 372 384 598 240 263 387 288</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_protocol_controller.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 427</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 334</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 428 384 240 574 347 472 444 387 388 279 129 155 524 598 263 231 313 455 134 395 213 212 165 372</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 472 129 444 231 279 574 134 213 212 347 395 313 455 388 524 428 155 165 372 384 598 240 263 387</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\Adaptor\zc_mx_adpter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 301</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 526</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 249 574 227 592 424 494 240 347 503 374 137 524 304 203 586 272 244 588 278 378 276 428 267 609 26 519 336 313 356 348 452 124 392 367 483 385 293 584 202 169 129 250 472 233 320 323 140 337 357 344 318 388 231 268 397 188 151 368 308 399 500 520 210 351 197 469 537 565 391 576 141 450 569 350 288 184 290 453 552 134 395 213 212 363 324 556 235 294 563 178 547 321 540 455 512 257 27 269 309 282 441 591 511 232 193 330 538 248 167 135 358 484 446 226 525 467 449 251 529 133 262 583 258 444 384 387 165 261 456 299 575 458 187 194 155 598 263 372</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 592 279 574 134 213 212 347 395 313 323 184 363 503 586 388 140 324 556 290 424 318 336 231 455 540 249 512 268 397 26 202 188 569 269 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 267 276 456 133 453 304 262 583 299 494 575 258 169 458 350 250 187 194 129 444 472 524 428 155 165 372 384 598 240 263 387 288 552 233 203 320</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\ZC\src\zc\zc_sec_engine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 448</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 372 472 212 598 455 574 129 155 231 313 134 395 213 524 165 444 388 347 263 428 384 240 387</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155 129 444 231 279 574 134 213 212 347 395 313 455 388 472 524 428 384 598 240 263 387 165 372</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\UartRecv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 316</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 592 538 313 484 251 450 268 576 244 424 267 269 309 279 574 323 357 232 249 378 141 202 585 290 336 212 503 586 337 344 188 591 330 500 248 358 226 467 258 569 456 318 388 231 134 395 213 140 556 397 26 272 519 227 356 282 441 511 193 367 512 391 167 135 446 525 449 588 293 584 262 583 524 129 304 27 228 276 133 184 540 347 455 363 324 235 294 563 178 547 321 257 151 348 452 368 308 124 399 374 392 520 210 351 483 197 469 137 385 537 565 278 529 494 350 169 453 261 299 575 458 233 444</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 453 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 304 262 583 299 494 575 258 169 458 350 585 228 129 444 524 233</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\MICOAppEntrance.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 522</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 604</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 372 574 26 202 27 378 155 563 569 244 588 278 453 279 313 269 374 137 424 458 552 184 347 290 235 547 318 348 452 124 392 367 483 385 141 450 472 566 267 540 455 363 324 388 512 456 294 178 321 257 151 356 368 308 399 500 520 210 351 197 469 293 537 565 391 576 584 575 129 263 592 228 262 336 231 134 395 213 212 323 503 140 586 556 268 397 309 276 133 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 484 446 226 525 467 449 251 529 299 169 524 598 304 261 583 494 258 350 609 288 444 428 384 240 387 165 233</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 304 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309 267 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 262 583 299 494 575 258 169 458 350 453 566 552 129 444 472 524 428 155 165 372 384 598 240 263 387 288 228 233</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\MICOConfigDelegate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 328</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 464</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 538 304 388 313 484 251 210 290 279 574 309 268 576 244 453 213 357 232 249 378 135 424 26 267 458 262 318 231 134 395 503 586 337 344 188 269 591 330 500 248 358 226 467 151 261 27 336 592 212 140 556 397 272 519 227 356 282 441 511 193 367 512 391 167 446 525 449 588 202 276 575 569 571 333 461 566 184 540 347 323 455 363 324 235 294 563 178 547 321 257 348 452 368 308 124 399 374 392 520 351 483 197 469 137 385 293 537 565 278 584 133 299 169 609 141 450 529 456 583 494 258 350</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 571 304 267 276 456 133 262 583 299 494 575 258 169 458 350 453 333 461 566</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Board\EMW3081\fw_loader_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 506</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 541</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 308 197 249 244 520 537 500 351 313 525 141 368 399 210 469 293 347 279 151 584 529 452 124 374 392 367 483 588 137 385 574 318 565 391 576 484 252 496 268 441 591 511 232 193 330 538 512 248 167 135 358 446 226 467 134 395 213 212 278 378 348 261 449 397 251 371 450</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 252 529 584 141 496 371 348 450 261</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Board\EMW3081\platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 313 268 424 574 244 178 279 576 293 388 538 484 251 188 347 27 232 249 378 135 584 26 231 318 569 309 269 591 330 500 248 358 226 467 202 447 323 455 257 336 592 363 324 512 282 441 511 193 367 391 167 446 525 449 588 210 141 450 294 321 290 134 395 213 212 356 184 540 503 140 586 556 397 151 348 452 368 308 124 399 374 392 520 351 483 197 469 137 385 537 565 278 529 235 563 547 261 272 337 519 357 227 344</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 592 279 574 134 213 212 347 395 313 323 231 455 26 27 202 318 188 424 336 388 184 363 503 586 140 324 556 540 249 512 268 397 569 269 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 290 272 235 337 294 519 563 357 178 227 547 344 321 447</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\driver\rtl_consol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 368 276 584 279 293 268 26 399 210 469 347 193 249 449 338 388 512 308 500 520 351 197 537 397 278 378 244 318 231 455 202 563 27 569 424 152 452 124 374 392 367 483 588 137 385 565 391 576 484 151 525 267 133 336 592 323 363 324 235 547 348 290 441 591 511 232 330 538 248 167 135 358 446 226 467 134 395 213 212 313 251 269 456 309 184 540 294 178 321 257 356 261 503 140 586 556 272 337 519 357 227 344 188 282 141 450 529</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 152 338 267 569 424 336 388 592 323 231 455 184 363 503 586 140 324 556 540 269 26 309 276 456 133 290 202 188 257 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\JSON-C\arraylist.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 517</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 209</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 313 279 212 583 388 574 455 231 575 347 134 395 213 599</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 599 388 279 574 134 213 212 347 395 313 231 455 583 575</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\JSON-C\json_object.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 218</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 258 231 299 574 313 318 279 388 575 212 609 140 556 599 169 134 395 213 347 458 336 592 503 586 397 494 186 498 566 323 455 286 424 184 540 363 324 268 512</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 599 592 279 574 134 213 212 347 395 313 323 388 397 231 455 299 458 494 575 186 286 318 169 498 258 566 424 336 184 363 503 586 140 324 556 540 249 512 268</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\JSON-C\json_tokener.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 430</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 350 503 249 184 323 574 279 586 231 592 491 575 318 397 388 169 566 347 313 140 556 286 609 599 583 299 458 186 258 134 395 213 212 363 324 455 424 336 268 540 512</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 599 592 279 574 134 213 212 347 395 313 323 388 397 184 363 503 586 140 324 556 231 455 491 583 299 458 575 186 286 318 169 350 258 566 424 336 540 249 512 268</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\JSON-C\json_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 474</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 212 279 583 503 491 169 586 458 388 320 258 313 134 395 213 347 286 592 397 231 184 299 186 350 323 140 556 318 599 455 363 324</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 599 592 279 574 134 213 212 347 395 313 323 388 397 491 231 455 320 184 363 503 586 140 324 556 583 299 458 186 286 318 169 350 258</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\JSON-C\linkhash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 219</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 397 574 388 494 323 279 231 609 491 313 347 592 134 395 213 212 455</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 592 279 574 134 213 212 347 395 313 323 231 455 388 397 491 494</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\JSON-C\printbuf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 579</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 458 279 313 574 455 388 583 212 592 231 609 299 323 134 395 213 599 347</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 599 592 279 574 134 213 212 347 395 313 323 388 231 455 583 299 458</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\SHAUtils\hkdf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 597</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 279 574 388 134 395 455 231 212 313 347 482 318</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 482 318 279 574 134 213 212 347 395 231 313 455 388</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\SHAUtils\hmac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 134 318 574 347 482 395 213 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 482 318 279 574 134 213 212 347 395</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\SHAUtils\sha1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 239</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 396</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 318 379 574 347 279 482 134 395 213 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 482 318 279 574 134 213 212 347 395 379</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\SHAUtils\sha224-256.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 454</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 380</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 482 347 379 318 574 134 395 213 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 482 318 279 574 134 213 212 347 395 379</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\SHAUtils\sha384-512.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 505</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 485</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 379 482 318 347 279 574 134 395 213 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 482 318 279 574 134 213 212 347 395 379</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\External\SHAUtils\usha.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 386</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 359</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 574 347 318 482 134 395 213 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 482 318 279 574 134 213 212 347 395</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\pinmap_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 530</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193 135 249 313 525 441 512 446 347 279 511 367 391 167 210 375 574 151 268 591 232 330 538 500 576 248 358 484 226 467 449 588 385 318 134 395 213 212 397 529 584 141 452 368 244 308 124 399 374 392 520 351 483 197 469 137 293 537 251 378 565 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 318 279 574 134 213 212 347 395 512 268 397 313 375 529 584 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\analogin_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 297</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 520 537 308 197 450 249 500 351 588 385 141 368 399 210 469 293 347 279 226 529 452 244 124 374 392 367 483 137 574 573 375 584 261 151 268 441 591 511 232 193 330 538 512 391 576 248 167 135 358 484 446 525 467 318 134 395 213 212 449 397 251 378 371 348 313 565 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 573 371 375</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\dma_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 315</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 368 529 293 584 141 399 210 469 347 193 249 308 500 520 351 197 537 450 452 244 124 374 392 367 483 588 137 385 574 278 378 371 348 261 151 268 441 591 511 232 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 343 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 343 371 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\efuse_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 561</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 326</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 374 318 137 391 244 588 574 565 279 452 124 392 367 483 385 576 484 249 368 308 399 500 520 210 351 197 469 293 537 347 193 313 151 525 268 441 591 511 232 330 538 512 248 167 135 358 446 226 467 134 395 213 212 278 378 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\flash_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 553</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 217</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244 374 137 368 588 574 251 151 529 452 124 392 367 483 385 397 378 135 210 348 450 141 249 308 399 500 520 351 197 469 293 537 347 279 193 449 268 248 584 371 375 255 331 261 441 591 511 232 330 538 512 391 576 167 358 484 446 226 525 467 318 134 395 213 212 313 565 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 375 255 331 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\gpio_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 523</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 232 565 279 268 538 576 484 318 391 261 151 591 330 500 248 358 226 467 212 249 584 441 511 193 367 512 167 135 446 525 134 395 213 574 313 244 375 554 450 529 141 452 368 308 124 399 374 392 520 210 351 483 588 197 469 137 385 293 537 347 278 378 348 449 397 251 371</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 375 554 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\gpio_irq_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 490</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 567</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151 467 330 358 576 591 500 248 226 212 484 497 584 268 232 538 318 565 279 391 261 441 511 193 367 512 167 135 446 525 134 395 213 574 249 313 244 375 175 450 529 141 452 368 308 124 399 374 392 520 210 351 483 588 197 469 137 385 293 537 347 278 378 348 449 397 251 371</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 375 175 371 497</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\i2c_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 423</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 529 392 385 452 483 249 449 584 497 124 367 193 244 371 374 588 137 574 268 248 348 376 221 450 141 368 308 399 500 520 210 351 197 469 293 537 347 279 397 251 378 135 151 242 478 161 375 261 441 591 511 232 330 538 512 391 576 167 358 484 446 226 525 467 318 134 395 213 212 331 470 568 313 565 278 496 343 201 281 224 475 596</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 221 371 161 496 242 343 331 201 497 281 470 224 478 475 568 596 376 375</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\i2s_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 602</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 360</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137 374 279 244 588 574 293 584 529 452 124 392 367 483 385 249 368 375 450 141 308 399 500 520 210 351 197 469 537 347 278 378 470 261 151 268 441 591 511 232 193 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 348 449 397 251 371</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 470 371 375</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\nfc_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 557</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 325</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 391 249 213 367 511 167 279 574 368 261 441 193 512 135 446 525 318 134 395 293 584 151 268 591 232 330 538 500 576 248 358 484 226 467 212 278 378 244 375 224 450 529 141 452 308 124 399 374 392 520 210 351 483 588 197 469 137 385 537 347 313 565 348 449 397 251 371</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 375 224 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\pinmap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 465</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210 141 347 399 469 193 249 244 584 529 368 293 279 313 525 308 500 520 351 197 537 151 450 452 124 374 392 367 483 588 137 385 574 318 565 391 576 484 375 261 268 441 591 511 232 330 538 512 248 167 135 358 446 226 467 134 395 213 212 278 378 348 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 375</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\common\wait_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 395 318 213 574 279 347 212 499 134 521</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 521 499 318 279 574 134 213 212 347 395</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\port_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 528</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 511 167 279 574 151 367 391 213 529 584 441 193 512 135 446 525 318 134 395 249 313 244 375 261 268 591 232 330 538 500 576 248 358 484 226 467 212 565 560 554 450 141 452 368 308 124 399 374 392 520 210 351 483 588 197 469 137 385 293 537 347 278 378 348 449 397 251 371</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 560 371 375 554</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\pwmout_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135 318 249 193 134 525 279 261 441 512 446 395 368 348 511 367 391 167 213 574 293 584 375 151 268 591 232 330 538 500 576 248 358 484 226 467 212 278 378 244 317 450 529 141 452 308 124 399 374 392 520 210 351 483 588 197 469 137 385 537 347 313 565 371 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 371 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 375 317</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\rtc_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 391 313 213 348 367 249 449 511 167 279 574 193 371 261 441 512 135 446 525 318 134 395 268 293 584 481 151 591 232 330 538 500 576 248 358 484 226 467 212 397 278 378 244 513 450 529 141 452 368 308 124 399 374 392 520 210 351 483 588 197 469 137 385 537 347 565 215 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 215 371 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 481 513</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\serial_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 310</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 280</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 588 244 279 374 137 385 478 529 452 124 392 367 483 249 368 371 348 450 141 308 399 500 520 210 351 197 469 293 537 347 496 375 231 584 261 151 268 441 591 511 232 193 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 251 378 449 397 565 278 455</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 496 371 478 375 231 455</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\sleep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 435</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 549</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 368 279 529 293 584 141 399 210 469 347 249 308 500 520 351 197 537 371 450 452 244 124 374 392 367 483 588 137 385 574 278 378 475 348 261 151 268 441 591 511 232 193 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 475 371 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\spi_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 489</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 445</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 452 584 450 483 293 392 385 279 124 367 529 244 374 588 137 574 249 368 242 141 308 399 500 520 210 351 197 469 537 347 278 378 348 568 375 261 151 268 441 591 511 232 193 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 371 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 242 371 568 375</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\sys_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 369</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348 124 279 367 565 452 392 483 385 318 391 244 374 588 137 574 576 484 331 141 249 368 308 399 500 520 210 351 197 469 293 537 347 313 151 525 261 596 268 441 591 511 232 193 330 538 512 248 167 135 358 446 226 467 134 395 213 212 278 378 371 584 449 397 251 450 529</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 596 371 348 450 261 529 331</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\timer_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 440</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 512 446 395 278 584 441 193 135 525 318 279 134 249 378 511 367 391 167 213 574 244 261 151 268 591 232 330 538 500 576 248 358 484 226 467 212 368 293 513 450 529 141 452 308 124 399 374 392 520 210 351 483 588 197 469 137 385 537 347 313 565 348 449 397 251 371</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 513 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\us_ticker.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 308 197 520 537 244 584 249 500 351 313 525 529 141 368 399 210 469 293 347 279 193 151 499 450 452 124 374 392 367 483 588 137 385 574 318 565 391 576 484 397 261 268 441 591 511 232 330 538 512 248 167 135 358 446 226 467 134 395 213 212 449 278 378 348 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529 499</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\common\us_ticker_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 572</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 305</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 588 278 244 374 137 249 378 212 452 124 392 367 483 385 584 574 279 134 395 213 141 368 308 399 500 520 210 351 197 469 293 537 499 313 347 318 151 268 441 591 511 232 193 330 538 512 391 576 248 167 135 358 484 446 226 525 467 449 397 565 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 397 279 574 134 213 212 347 395 313 499 318 584 151 268 249 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\common\mbed\targets\hal\rtl8195a\wdt_api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 354</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 467 279 151 330 358 249 293 584 261 591 500 248 226 212 348 268 232 538 576 484 368 371 441 511 193 367 512 391 167 135 446 525 318 134 395 213 574 278 378 244 450 529 141 452 308 124 399 374 392 520 210 351 483 588 197 469 137 385 537 347 313 565 376 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 376 371 348 584 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 141 450 261 529</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\misc\driver\low_level_io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 536</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212 279 313 134 395 213 574 193 244 323 347 249 318 592</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 592 279 574 134 213 212 347 395 313 323 244 249 318 193</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_32k.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 587</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244 588 574 279 374 137 452 124 392 367 483 385 368 249 308 399 500 520 210 351 197 469 293 537 347 193 278 378 268 441 591 511 232 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 151 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 322</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 373</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 358 244 330 467 249 313 591 500 248 226 347 279 293 268 232 538 576 484 151 441 174 574 511 193 367 512 391 167 135 446 525 368 318 565 535 210 134 395 213 212 397 452 308 124 399 374 392 520 351 483 588 197 469 137 385 537 278 378 449 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 318 279 574 134 213 212 347 395 512 268 397 313 535 441 174 226 151 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_sdr_controller.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 389</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 501</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210 226 397 500 591 248 212 378 135 329 330 358 467 268 232 538 576 484 251 244 151 603 441 511 193 367 512 391 167 446 525 318 279 134 395 213 574 249 449 452 368 308 124 399 374 392 520 351 483 588 197 469 137 385 293 537 347 313 565 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 603 329</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_gdma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 548</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 594</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 391 367 279 511 167 574 441 193 512 135 446 525 318 134 395 249 368 210 268 591 232 330 538 500 576 248 358 484 226 467 212 278 378 244 151 452 308 124 399 374 392 520 351 483 588 197 469 137 385 293 537 347 313 565 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 466</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 605</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210 249 347 399 469 193 279 368 293 308 500 520 351 197 537 452 244 124 374 392 367 483 588 137 385 574 278 378 268 441 591 511 232 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 151 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 381</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 452 483 392 385 279 124 367 244 374 588 137 574 249 368 308 399 500 520 210 351 197 469 293 537 347 278 378 151 268 441 591 511 232 193 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_i2s.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 451</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293 368 279 174 399 210 469 347 193 249 137 308 500 520 351 197 537 452 244 124 374 392 367 483 588 385 574 278 378 151 535 268 441 591 511 232 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 535 174</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_mii.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 319</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 539</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 347 289 249 244 318 574 193 199 134 395 213 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199 289 249 318 279 574 134 213 212 347 395 244 193</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_nfc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 366</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 502</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 537 520 308 197 279 249 500 351 368 399 210 469 293 347 193 449 452 244 124 374 392 367 483 588 137 385 574 278 378 268 441 591 511 232 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 151 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_pcm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 507</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 279 249 134 395 244 212 574 223 318 347 256 193</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 256 223 249 318 279 574 134 213 212 347 395 244 193</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 425</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 534</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 574 167 511 367 391 213 441 193 512 135 446 525 318 134 395 249 358 268 591 232 330 538 500 576 248 484 226 467 212 368 278 378 244 452 308 124 399 374 392 520 210 351 483 588 197 469 137 385 293 537 347 449 313 565 151 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_soc_ps_monitor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 515</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 391 374 137 279 318 554 244 588 134 249 565 529 452 124 392 367 483 385 395 576 484 500 368 308 399 520 210 351 197 469 293 537 213 574 313 151 525 268 441 591 511 232 193 330 538 512 248 167 135 358 446 226 467 212 278 378 141 584 450 347 449 397 251 371 348 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 529 584 141 554 371 348 450 261</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\ram_lib\hal_spi_flash_ram.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 543</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 580</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124 367 452 392 483 385 244 255 374 588 137 574 278 378 249 368 308 399 500 520 210 351 197 469 293 537 347 279 151 268 441 591 511 232 193 330 538 512 391 576 248 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 255</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_ssi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 471</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 245</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 446 395 512 441 279 193 135 525 318 134 249 511 367 391 167 213 574 368 151 268 591 232 330 538 500 576 248 358 484 226 467 212 278 378 244 483 452 308 124 399 374 392 520 210 351 588 197 469 137 385 293 537 347 313 565 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 432</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 525 279 193 135 318 134 249 441 512 446 395 511 367 391 167 213 574 268 591 232 330 538 500 576 248 358 484 226 467 212 368 278 378 244 452 308 124 399 374 392 520 210 351 483 588 197 469 137 385 293 537 347 449 313 565 151 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\src\hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 393</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 532</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 576 268 538 484 279 232 167 591 330 500 248 358 226 467 212 249 368 151 441 511 193 367 512 391 135 446 525 318 134 395 213 574 278 378 244 588 210 452 308 124 399 374 392 520 351 483 197 469 137 385 293 537 347 313 565 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 361</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 151 511 167 367 391 441 193 512 135 446 525 244 226 249 347 279 293 268 591 232 330 538 500 576 248 358 484 467 368 318 565 397 134 395 213 212 313 210 452 308 124 399 374 392 520 351 483 588 197 469 137 385 537 278 378 449 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 268 512 249 318 279 574 134 213 212 347 395 397 313 293 226 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_gdma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 434</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 358 330 249 467 279 210 591 500 248 226 212 151 268 232 538 576 484 368 391 441 511 193 367 512 167 135 446 525 318 134 395 213 574 278 378 244 452 308 124 399 374 392 520 351 483 588 197 469 137 385 293 537 347 313 565 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 295</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 313 525 249 351 584 308 520 197 537 244 368 399 210 469 293 347 279 193 151 348 452 124 374 392 367 483 588 137 385 574 318 565 391 576 484 261 175 268 441 591 511 232 330 538 512 248 167 135 358 446 226 467 134 395 213 212 278 378 449 397 251 371 450 529 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 175 371 348 584 141 450 261 529</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 284</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 349</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 249 351 279 308 520 197 537 358 368 399 210 469 293 347 193 452 244 124 374 392 367 483 588 137 385 574 278 378 232 268 441 591 511 330 538 512 391 576 248 167 135 484 446 226 525 467 318 134 395 213 212 313 565 151 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_ssi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 606</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151 244 588 574 279 483 374 137 248 452 124 392 367 385 249 368 308 399 500 520 210 351 197 469 293 537 347 278 378 268 441 591 511 232 193 330 538 512 391 576 167 135 358 484 446 226 525 467 318 134 395 213 212 313 565 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268 576 538 484 279 232 151 591 330 500 248 358 226 467 212 249 368 449 441 511 193 367 512 391 167 135 446 525 318 134 395 213 574 278 378 244 452 308 124 399 374 392 520 210 351 483 588 197 469 137 385 293 537 347 313 565 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 463</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 473</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124 151 367 279 210 452 392 483 385 244 374 588 137 574 368 167 249 308 399 500 520 351 197 469 293 537 347 193 278 378 268 441 591 511 232 330 538 512 391 576 248 135 358 484 446 226 525 467 318 134 395 213 212 313 565 449 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 268 249 318 279 574 134 213 212 347 395 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\cmsis\device\system_8195a.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 335</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 249 351 279 308 520 197 537 368 212 399 210 469 293 318 134 395 213 574 452 244 124 374 392 367 483 588 137 385 278 378 151 347 268 441 591 511 232 193 330 538 512 391 576 248 167 135 358 484 446 226 525 467 449 313 565 397 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 249 318 279 574 134 213 212 347 395 151 268 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 512 397 313 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\platform_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202 363 318 232 249 269 279 378 135 26 257 212 574 324 388 268 538 576 484 251 244 290 529 184 455 512 424 591 330 500 248 358 226 467 151 584 357 231 27 134 395 213 540 313 309 282 441 511 193 367 391 167 446 525 449 588 210 385 337 344 188 355 426 252 496 356 347 569 336 592 323 503 140 586 556 397 348 452 368 308 124 399 374 392 520 351 483 197 469 137 293 537 565 278 261 272 519 227 371 141 450 235 294 563 178 547 321</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202 318 279 574 134 213 212 347 395 188 424 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 290 272 235 337 294 519 563 357 178 227 547 344 321 355 426 252 496 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 353</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151 26 576 336 249 584 512 279 351 519 212 188 500 484 202 455 424 308 520 197 537 368 318 565 391 272 227 592 574 323 363 324 388 356 399 210 469 293 385 290 337 357 344 231 134 395 213 313 348 452 244 124 374 392 367 483 588 137 278 378 269 27 235 294 563 178 547 321 184 540 347 503 140 586 556 268 397 257 569 309 282 441 591 511 232 193 330 538 248 167 135 358 446 226 525 467 449 251 261 141 450 529</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 26 202 188 569 269 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 488</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 443</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 367 272 584 279 574 391 210 227 592 397 511 167 26 519 336 212 140 556 268 257 269 424 282 441 193 512 135 446 525 249 449 588 385 290 188 337 357 344 318 388 231 134 395 213 313 503 586 27 569 309 591 232 330 538 500 576 248 358 484 226 467 251 378 244 151 202 235 294 563 178 547 321 184 540 347 323 455 363 324 356 348 452 368 308 124 399 374 392 520 351 483 197 469 137 293 537 565 278 261 141 450 529</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 26 202 188 569 269 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_mcu_powersave.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 283</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249 483 574 569 347 318 348 452 235 586 424 392 385 269 231 503 124 367 290 188 388 279 323 244 374 588 137 278 378 529 547 26 202 356 336 592 140 556 268 397 151 368 308 399 500 520 210 351 197 469 293 537 565 391 576 484 525 584 563 355 426 257 27 134 395 213 212 184 540 313 455 363 324 512 309 282 441 591 511 232 193 330 538 248 167 135 358 446 226 467 449 251 141 450 294 178 321 261 272 337 519 357 227 344</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202 318 279 574 134 213 212 347 395 188 424 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 290 272 235 337 294 519 563 357 178 227 547 344 321 355 426</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 365</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 584 26 282 441 279 574 337 512 446 588 202 592 397 344 356 424 193 135 525 249 449 151 336 212 140 556 268 357 511 367 391 167 210 290 582 318 388 231 134 395 213 313 503 586 272 519 227 188 269 591 232 330 538 500 576 248 358 484 226 467 251 378 244 385 569 184 540 347 323 455 363 324 235 294 563 178 547 321 257 27 309 348 452 368 308 124 399 374 392 520 351 483 197 469 137 293 537 565 278 261 141 450 529 371</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 269 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 290 26 202 188 569 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 582 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 564</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 253</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 135 424 356 193 249 449 592 279 397 344 525 290 337 26 282 441 512 446 588 244 569 336 212 140 556 268 357 511 367 391 167 210 202 27 318 388 231 134 395 213 313 503 586 272 519 227 188 269 591 232 330 538 500 576 248 358 484 226 467 251 378 151 261 375 184 540 347 323 455 363 324 235 294 563 178 547 321 257 309 348 452 368 308 124 399 374 392 520 351 483 197 469 137 385 293 537 565 278 584 141 450 529</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 269 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 290 26 202 188 569 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 375</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 341</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 265</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 424 574 135 356 193 249 449 592 279 397 344 525 337 26 282 441 512 446 588 244 336 212 140 556 268 357 511 367 391 167 210 202 290 318 388 231 134 395 213 313 503 586 272 519 227 188 269 591 232 330 538 500 576 248 358 484 226 467 251 378 151 261 569 375 184 540 347 323 455 363 324 235 294 563 178 547 321 257 27 309 348 452 368 308 124 399 374 392 520 351 483 197 469 137 385 293 537 565 278 584 141 450 529</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 269 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 290 26 202 188 569 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 375</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 339</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 468</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 469 324 584 323 388 399 279 210 178 574 363 318 356 368 293 26 424 294 321 184 347 455 512 188 151 249 308 500 520 351 197 537 565 391 576 484 385 202 235 563 547 540 313 348 452 244 124 374 392 367 483 588 137 278 378 290 269 569 272 337 519 357 227 344 336 592 231 134 395 213 212 503 140 586 556 268 397 257 27 309 282 441 591 511 232 193 330 538 248 167 135 358 446 226 525 467 449 251 261 141 450 529</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 26 202 188 569 269 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\Airkiss\Airkiss.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 527</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 241</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 424 455 294 356 368 458 184 257 293 276 271 133 347 512 321 399 210 469 584 566 26 574 279 323 363 324 388 318 178 151 249 308 500 520 351 197 537 565 391 576 385 267 290 342 540 313 202 235 563 547 27 569 348 452 244 124 374 392 367 483 588 137 278 378 595 304 575 585 516 269 456 309 336 592 231 134 395 213 212 503 140 586 556 268 397 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 484 446 226 525 467 449 251 261 453 299 169 141 450 529 609 262 583 494 258 350</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 585 566 516 595 342 271 304 262 583 299 494 575 258 169 458 350 453</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\mico_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 514</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 285</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 563 309 424 323 279 397 511 167 592 27 569 367 391 210 151 202 318 188 212 336 140 556 268 282 441 193 512 135 446 525 249 449 588 244 584 26 290 134 395 213 388 231 347 503 586 257 269 591 232 330 538 500 576 248 358 484 226 467 251 378 529 235 547 313 455 184 540 363 324 356 348 452 368 308 124 399 374 392 520 351 483 197 469 137 385 293 537 565 278 141 450 294 178 321 261 272 337 519 357 227 344</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 318 279 574 134 213 212 347 395 231 313 455 424 336 388 592 323 184 363 503 586 140 324 556 540 249 512 268 397 202 188 569 269 26 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 290 272 235 337 294 519 563 357 178 227 547 344 321</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\Airkiss\airkiss_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 510</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 509</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 565 424 197 26 279 178 308 368 525 458 323 324 388 520 537 249 318 391 584 574 363 151 500 351 576 244 133 184 347 455 512 294 321 257 356 399 210 469 293 202 267 271 276 540 313 235 563 547 27 569 348 452 124 374 392 367 483 588 137 385 278 378 484 529 304 575 342 269 456 290 309 336 592 231 134 395 213 212 503 140 586 556 268 397 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 446 226 467 449 251 141 450 453 299 169 261 262 583 494 258 350</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 342 271 304 262 583 299 494 575 258 169 458 350 453</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\EasyLink\EasyLink.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 493</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 184 424 257 293 455 294 356 368 566 133 347 512 321 399 210 469 267 342 26 574 279 323 363 324 388 318 178 151 249 308 500 520 351 197 537 565 391 576 584 202 583 290 276 540 313 235 563 547 27 569 348 452 244 124 374 392 367 483 588 137 385 278 378 141 450 336 262 258 585 516 571 479 269 456 309 592 231 134 395 213 212 503 140 586 556 268 397 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 484 446 226 525 467 449 251 529 609 494 350 169 261 595 304 453 299 575 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 585 566 516 595 342 571 304 262 583 299 494 575 258 169 458 350 453 479</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\SoftAP\EasyLinkSoftAP.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 578</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 391 324 537 249 424 323 388 520 318 26 279 178 308 197 368 565 258 516 574 363 151 500 351 576 262 479 133 184 347 455 512 294 321 257 356 399 210 469 293 484 529 585 27 559 276 540 313 202 235 563 547 569 348 452 244 124 374 392 367 483 588 137 385 278 378 525 584 609 583 267 290 566 342 269 456 309 336 592 231 134 395 213 212 503 140 586 556 268 397 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 446 226 467 449 251 141 450 494 350 169 261 595 304 453 299 575 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 585 566 516 595 342 559 479 304 262 583 299 494 575 258 169 458 350 453</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\Library\MICOConfig.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 352</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 266</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 592 336 213 313 27 318 388 231 279 134 395 503 586 249 327 184 540 212 140 556 268 397 424 347 323 455 363 324 512</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 327 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\CheckSumUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 377</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 424 336 574 592 397 318 388 231 212 140 556 268 184 540 347 134 395 213 313 503 586 249 203 323 455 363 324 512</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\HTTPUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 346</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 462</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226 529 574 188 484 500 313 279 424 337 269 591 248 276 344 330 358 467 26 540 347 249 357 268 232 538 576 251 378 244 516 133 184 323 455 363 324 388 512 318 272 519 227 356 282 441 511 193 367 391 167 135 446 525 449 588 151 584 202 267 566 290 320 609 569 456 309 336 592 231 134 395 213 212 503 140 586 556 397 235 294 563 178 547 321 257 27 348 452 368 308 124 399 374 392 520 210 351 483 197 469 137 385 293 537 565 278 141 450 261 595</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 566 516 595 320</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\MDNSUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 438</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 439</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 313 467 279 574 344 330 358 569 269 424 337 188 591 500 248 226 559 540 347 249 456 357 268 232 538 576 484 251 378 244 135 141 450 202 267 184 323 455 363 324 388 512 318 290 309 26 272 519 227 356 282 441 511 193 367 391 167 446 525 449 588 210 293 584 336 592 231 134 395 213 212 503 140 586 556 397 276 133 235 294 563 178 547 321 257 27 151 348 452 368 308 124 399 374 392 520 351 483 197 469 137 385 537 565 278 529 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 559 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 267 569 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\MICOBonjour.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 312</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 574 378 424 309 388 313 357 232 249 262 213 276 268 538 576 484 251 244 575 566 318 231 134 395 503 586 337 344 188 269 591 330 500 248 358 226 467 293 584 26 202 585 569 336 592 212 140 556 397 133 272 519 227 356 282 441 511 193 367 512 391 167 135 446 525 449 588 141 450 458 27 559 267 453 184 540 347 323 455 363 324 456 290 235 294 563 178 547 321 257 151 348 452 368 308 124 399 374 392 520 210 351 483 197 469 137 385 537 565 278 529 299 169 609 304 261 583 494 258 350</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 304 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309 267 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 262 583 299 494 575 258 169 458 350 453 585 559 566</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\RingBufferUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 332</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 397 318 279 231 574 388 424 336 592 212 140 556 268 26 569 184 540 134 395 213 313 503 586 249 356 347 323 455 363 324 512 269 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 356 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\SecurityUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 431</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 318 279 231 574 388 134 397 424 336 592 212 140 556 268 184 540 347 395 213 313 503 586 249 551 323 455 363 324 512</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 551 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\SHAUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 589</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 556 140 336 212 268 569 592 574 397 424 566 318 388 231 134 395 213 313 503 586 249 269 436 184 540 347 323 455 363 324 512 309 26 609</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 436 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309 566</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\SocketUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 208</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 540 279 574 538 347 276 484 251 268 576 244 424 249 313 309 357 232 378 135 337 344 188 269 591 330 500 248 358 226 467 141 450 202 267 184 323 455 363 324 388 512 318 133 26 272 519 227 356 282 441 511 193 367 391 167 446 525 449 588 210 293 584 569 336 592 231 134 395 213 212 503 140 586 556 397 456 290 235 294 563 178 547 321 257 27 151 348 452 368 308 124 399 374 392 520 351 483 197 469 137 385 537 565 278 529 342 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 342 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309 267 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\StringUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 590</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 397 279 184 574 566 424 569 140 556 268 26 609 347 540 313 503 586 249 134 395 213 212 318 336 388 592 231 323 455 363 324 512 269 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 566 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\TimeUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 437</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 306</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 483 318 202 424 395 313 249 348 452 151 586 235 392 385 26 231 279 134 503 574 569 547 124 367 356 388 213 456 563 27 244 374 588 137 278 378 525 584 267 336 592 212 140 556 268 397 269 290 294 178 321 257 368 308 399 500 520 210 351 197 469 293 537 565 391 576 484 529 320 184 540 347 323 455 363 324 512 309 276 133 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 446 226 467 449 251 141 450 300 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 300 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309 267 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 320</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\TLVUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 581</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 397 279 592 574 336 424 318 388 231 212 140 556 268 26 569 184 540 134 395 213 313 503 586 249 492 347 323 455 363 324 512 269 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 492 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Support\URLUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 480</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 593</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 313 574 309 388 279 318 231 134 395 503 586 249 566 336 592 212 140 556 268 397 569 595 184 540 347 323 455 363 324 512 269 424 26 609</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309 566 595</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\MICOCli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 277</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 313 483 484 529 235 348 452 184 574 318 392 385 424 133 347 547 124 367 26 169 609 249 202 563 27 569 244 374 588 137 278 378 494 394 276 540 455 363 324 388 512 294 178 321 257 151 356 368 308 399 500 520 210 351 197 469 293 537 565 391 576 525 584 350 304 600 269 456 290 309 336 592 231 134 395 213 212 323 503 140 586 556 268 397 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 446 226 467 449 251 141 450 262 583 258 267 261 453 299 575 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 304 262 583 299 494 575 258 169 458 350 453 600 394</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\MICOConfigMenu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 311</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 424 574 540 347 279 249 299 313 397 461 26 184 323 455 363 324 388 512 318 169 262 269 309 336 592 231 134 395 213 212 503 140 586 556 268 575 458 569 583 494 258 350</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 262 583 299 494 575 258 169 458 350 461</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\MICOConfigServer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 321 399 525 133 347 512 469 516 210 584 494 595 267 184 455 424 294 257 356 368 293 244 342 203 26 574 279 323 363 324 388 318 178 151 249 308 500 520 351 197 537 565 391 576 202 169 304 276 540 313 235 563 547 27 569 348 452 124 374 392 367 483 588 137 385 278 378 484 529 350 609 585 566 269 456 290 309 336 592 231 134 395 213 212 503 140 586 556 268 397 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 446 226 467 449 251 141 450 262 583 258 261 453 299 575 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 304 262 583 299 494 575 258 169 458 350 453 342 516 595 585 566 203</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\MICOEntrance.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 302</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 476</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304 279 261 566 397 356 368 151 169 290 574 293 26 178 399 210 469 424 592 267 453 228 212 294 321 184 140 556 268 188 249 308 500 520 351 197 537 318 565 391 576 135 133 231 571 533 233 313 134 395 213 202 235 563 547 540 323 503 586 348 452 244 124 374 392 367 483 588 137 385 278 378 299 444 129 481 585 314 600 479 558 263 508 271 347 272 337 519 357 227 344 336 388 455 363 324 512 257 27 569 269 309 282 441 591 511 232 193 330 538 248 167 358 484 446 226 525 467 449 251 584 276 575 458 609 524 141 450 529 262 456 583 494 258 350</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 481 279 574 134 213 212 347 395 313 290 424 318 336 388 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 26 202 188 569 269 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 304 267 276 456 133 262 583 299 494 575 258 169 458 350 453 585 314 600 571 479 558 533 566 233 129 444 524 228 263 508 271</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\MICOForceOTA.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 370</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212 399 586 26 469 336 249 321 210 569 503 574 424 294 257 356 368 293 484 529 456 309 592 279 323 178 151 308 500 520 351 197 537 318 565 391 576 394 269 290 388 231 134 395 213 313 140 556 268 397 202 235 563 547 27 348 452 244 124 374 392 367 483 588 137 385 278 378 525 584 585 203 276 133 184 540 347 455 363 324 512 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 446 226 467 449 251 141 450 267 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 585 394 203</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\MICOMfgtest.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 584 257 512 446 588 569 344 231 249 574 282 441 203 337 318 279 269 424 193 135 525 449 293 26 202 453 357 388 347 313 511 367 391 167 262 583 27 272 519 227 336 592 323 455 363 324 309 268 591 232 330 538 500 576 248 358 484 226 467 251 378 244 141 450 456 258 290 304 585 134 395 213 212 235 294 563 178 547 321 184 540 503 140 586 556 397 188 356 151 348 452 368 308 124 399 374 392 520 210 351 483 197 469 137 385 537 565 278 529 494 350 169 267 481 261 276 133 299 575 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 481 279 574 134 213 212 347 395 313 290 424 318 336 388 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 26 202 188 569 269 309 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 304 267 276 456 133 262 583 299 494 575 258 169 458 350 453 585 203</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\MICONotificationCenter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 570</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 518</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 374 140 137 556 336 212 268 574 276 202 563 27 569 244 588 249 278 378 424 267 592 397 235 547 318 348 452 124 392 367 483 385 141 450 388 231 134 395 213 313 503 586 133 26 294 178 321 257 151 356 368 308 399 500 520 210 351 197 469 293 537 565 391 576 584 585 184 540 347 323 455 363 324 512 269 456 290 309 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 484 446 226 525 467 449 251 529 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 585 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 267 569 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\MICONTPClient.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 307</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 562</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 569 588 424 574 563 244 583 540 347 279 202 27 249 378 374 137 481 276 313 235 547 318 348 452 124 392 367 483 385 141 450 342 133 26 184 323 455 363 324 388 512 294 178 321 257 151 356 368 308 399 500 520 210 351 197 469 293 537 565 391 576 584 262 258 304 585 290 267 269 456 309 336 592 231 134 395 213 212 503 140 586 556 268 397 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 484 446 226 525 467 449 251 529 494 350 169 453 261 299 575 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 453 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 304 262 583 299 494 575 258 169 458 350 342 585 481</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\MICOParaStorage.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 264</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 574 374 540 279 347 269 137 210 151 26 27 350 424 249 202 563 569 244 588 278 378 584 267 313 290 235 547 318 348 452 124 392 367 483 385 203 453 184 323 455 363 324 388 512 456 294 178 321 257 356 368 308 399 500 520 351 197 469 293 537 565 391 576 494 169 304 262 336 592 231 134 395 213 212 503 140 586 556 268 397 309 276 133 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 484 446 226 525 467 449 251 261 583 258 141 450 529 299 575 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 304 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 569 269 26 309 267 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 262 583 299 494 575 258 169 458 350 453 203</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MICO\MICOSystemMonitor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 550</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500 363 318 202 574 279 151 249 351 576 584 26 258 424 323 324 388 178 308 520 197 537 368 565 391 262 133 184 347 455 512 294 321 257 356 399 210 469 293 290 276 540 313 235 563 547 27 569 348 452 244 124 374 392 367 483 588 137 385 278 378 583 314 269 456 309 336 592 231 134 395 213 212 503 140 586 556 268 397 272 337 519 357 227 344 188 282 441 591 511 232 193 330 538 248 167 135 358 484 446 226 525 467 449 251 261 494 350 169 267 141 450 529 304 453 299 575 458</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 569 424 318 279 574 134 213 212 347 395 336 388 313 592 323 231 455 184 363 503 586 140 324 556 540 249 512 268 397 269 26 309 276 456 133 290 202 188 257 151 441 452 591 368 511 244 193 232 308 124 330 399 367 449 374 538 500 392 520 565 378 278 251 210 391 576 351 483 248 167 588 197 135 358 469 137 484 446 385 226 293 537 525 467 282 584 141 348 450 261 529 356 27 272 235 337 294 519 563 357 178 227 547 344 321 314 304 262 583 299 494 575 258 169 458 350 453</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\EMW3081\Exe\application.axf</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 159 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 398 157 171 457 531 173 241 112 509 297 209 546 144 544 192 220 578 326 217 541 523 567 236 373 594 605 196 142 539 502 507 534 501 207 580 245 432 532 164 122 462 128 360 218 153 474 80 84 85 114 219 229 439 285 604 139 277 266 464 311 158 476 177 179 518 562 264 222 118 325 160 189 130 148 443 204 156 365 253 265 468 528 579 123 150 86 291 183 361 434 295 349 606 211 473 195 132 280 396 380 485 589 549 208 445 590 214 163 422 440 306 581 126 593 243 305 359 340 354 460 486 168 429 382 162 477 526 334 448 181 362 487 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\LocalTcpServer.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\RemoteTcpClient.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Demos\COM.MXCHIP.SPP\SppProtocol.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\External\JSON-C\debug.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\component\common\api\at_cmd\log_service.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_i2s.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\rtl8195a\src\rtl8195a_nfc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\component\soc\realtek\8195a\fwlib\ram_lib\wlan\tcm_heap.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_adc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_i2c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_pwm.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Platform\MCU\RTL8711\peripherals\platform_rng.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Support\AESUtils.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
